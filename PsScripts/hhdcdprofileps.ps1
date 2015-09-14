@@ -1,0 +1,1 @@
+hhdcatps $PSHOME\profile.ps1;
