@@ -1,1 +1,0 @@
-cd C:\project\150515_korder-agent-win32\dist;

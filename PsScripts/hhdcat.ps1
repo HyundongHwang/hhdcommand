@@ -7,7 +7,7 @@ powershell_ise에서 라인넘버 넣어서 파일열기
 Hhd-Open-File test.txt
 Hhd-Open-File test.txt -Encoding UTF8
 #>
-param 
+param
 (
     [string] $FileName,
     [Microsoft.PowerShell.Commands.FileSystemCmdletProviderEncoding] $Encoding = 'Default'

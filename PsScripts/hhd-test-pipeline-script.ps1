@@ -1,8 +1,8 @@
-﻿<#
+<#
 .EXAMPLE
-PS ~> @('a', 'b') | .\hhd-test-pipeline-script.ps1 | % { Write-Output ($_ + '안녕하세요') }
-ahello안녕하세요
-bhello안녕하세요
+PS ~> @('a', 'b') | hhd-test-pipeline-script.ps1 | % { Write-Output ($_ + '12345') }
+ahello12345
+bhello12345
 #>
 [CmdletBinding()]
 Param

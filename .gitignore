@@ -10,18 +10,6 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
-# Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-build/
-bld/
-[Bb]in/
-[Oo]bj/
-
 # Visual Studo 2015 cache/options directory
 .vs/
 
@@ -174,10 +162,6 @@ Backup*/
 UpgradeLog*.XML
 UpgradeLog*.htm
 
-# SQL Server files
-*.mdf
-*.ldf
-
 # Business Intelligence projects
 *.rdl.data
 *.bim.layout
@@ -194,3 +178,5 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+
+arduino-1.6.6/
