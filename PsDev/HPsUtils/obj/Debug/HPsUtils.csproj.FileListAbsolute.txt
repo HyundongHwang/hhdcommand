@@ -1,0 +1,5 @@
+C:\hhdcommand\PsDev\HPsUtils\bin\Debug\HPsUtils.dll
+C:\hhdcommand\PsDev\HPsUtils\bin\Debug\HPsUtils.pdb
+C:\hhdcommand\PsDev\HPsUtils\obj\Debug\HPsUtils.csprojResolveAssemblyReference.cache
+C:\hhdcommand\PsDev\HPsUtils\obj\Debug\HPsUtils.dll
+C:\hhdcommand\PsDev\HPsUtils\obj\Debug\HPsUtils.pdb
