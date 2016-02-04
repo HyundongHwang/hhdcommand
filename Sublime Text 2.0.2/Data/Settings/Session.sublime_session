@@ -1,6 +1,7 @@
 {
 	"folder_history":
 	[
+		"/C/project/140701_godiva-android",
 		"/c/project/151019_Windows-universal-samples/Samples",
 		"/c",
 		"/c/project/151226_posh-monokai",
@@ -21,7 +22,7 @@
 		"/C/project/151030_HhdAzureBlobFtp",
 		"/C/project/151030_HhdAzureBlobFtp/AzureBaseLib"
 	],
-	"last_window_id": 19,
+	"last_window_id": 20,
 	"settings":
 	{
 		"new_window_height": 442.0,
@@ -100,627 +101,7 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 58.0,
-				"selected_items":
-				[
-					[
-						"powersh",
-						"SublimeREPL: PowerShell"
-					],
-					[
-						"POWERSH",
-						"SublimeREPL: PowerShell"
-					],
-					[
-						"java",
-						"Set Syntax: Java"
-					],
-					[
-						"xml",
-						"Set Syntax: XML"
-					],
-					[
-						"XML",
-						"Set Syntax: XML"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
-						"package",
-						"Package Control: Install Package"
-					],
-					[
-						"pretty",
-						"Pretty JSON: Format (Pretty Print) JSON"
-					],
-					[
-						"install pa",
-						"Package Control: Install Package"
-					],
-					[
-						"syntax xml",
-						"Set Syntax: XML"
-					],
-					[
-						"wrap",
-						"Word Wrap: Toggle"
-					],
-					[
-						"encoding",
-						"ConvertToUTF8: Reload with Encoding"
-					],
-					[
-						"hexviewew",
-						"Hex Viewer: Toggle Hex View"
-					],
-					[
-						"hexview",
-						"Hex Viewer: Toggle Hex View"
-					],
-					[
-						"hexviewer",
-						"Hex Viewer: Toggle Hex View"
-					],
-					[
-						"toggle",
-						"Hex Viewer: Toggle Hex View"
-					],
-					[
-						"hexto",
-						"Hex Viewer: Toggle Hex View"
-					],
-					[
-						"xaml",
-						"Set Syntax: YAML"
-					],
-					[
-						"c++",
-						"Set Syntax: C++"
-					],
-					[
-						"wra",
-						"Word Wrap: Toggle"
-					],
-					[
-						"pack",
-						"Package Control: List Packages"
-					],
-					[
-						"c#",
-						"Set Syntax: C#"
-					],
-					[
-						"syn",
-						"Set Syntax: Ruby"
-					],
-					[
-						"python",
-						"Set Syntax: Python"
-					],
-					[
-						"pac",
-						"Package Control: Install Package"
-					],
-					[
-						"packageco",
-						"Package Control: Remove Package"
-					],
-					[
-						"plugin",
-						"SublimeCodeIntel: Disable Plugin"
-					],
-					[
-						"html",
-						"Set Syntax: HTML"
-					],
-					[
-						"json",
-						"Set Syntax: JSON"
-					],
-					[
-						"javas",
-						"Set Syntax: JavaScript"
-					],
-					[
-						"ins",
-						"Package Control: Install Package"
-					],
-					[
-						"install ",
-						"Package Control: Install Package"
-					],
-					[
-						"packagein",
-						"Package Control: Install Package"
-					]
-				],
-				"width": 464.0
-			},
-			"console":
-			{
-				"height": 132.0
-			},
-			"distraction_free":
-			{
-				"menu_visible": true,
-				"show_minimap": false,
-				"show_open_files": false,
-				"show_tabs": false,
-				"side_bar_visible": false,
-				"status_bar_visible": false
-			},
-			"file_history":
-			[
-				"/C/Windows/System32/WindowsPowerShell/v1.0/posh-monokai.ps1",
-				"/C/hhdcommand/PsScripts/*.ps1",
-				"/C/hhdcommand/PsScripts/ps1",
-				"/c/project/151019_Windows-universal-samples/Samples/AllJoyn/ProducerExperiences/cs/CryptographicHelpers.cs",
-				"/c/project/151019_Windows-universal-samples/Samples/FileAccess/cs/Scenario5_WriteAndReadAFileUsingAStream.xaml.cs",
-				"/c/project/151019_Windows-universal-samples/Samples/BackgroundTransfer/cs/BackgroundTransfer/Scenario1_Download.xaml.cs",
-				"/c/project/151019_Windows-universal-samples/Samples/FileAccess/cs/Scenario4_WriteAndReadBytesInAFile.xaml.cs",
-				"/c/project/151019_Windows-universal-samples/Samples/FilePickerContracts/cs/FileOpenPicker_PickCachedFile.xaml.cs",
-				"/c/project/151019_Windows-universal-samples/Samples/Playlists/cs/Scenario1_Create.xaml.cs",
-				"/c/project/151019_Windows-universal-samples/Samples/AdaptiveStreaming/cs/Scenario4.xaml.cs",
-				"/c/project/151019_Windows-universal-samples/Samples/VoIP/cs/VoipTasks/Helpers/VccCallHelper.cs",
-				"/c/project/151019_Windows-universal-samples/Samples/ApplicationData/cs/Scenario7_Msappdata.xaml.cs",
-				"/c/project/151019_Windows-universal-samples/Samples/HttpClient/cs/HttpClient/Scenario2_GetStream.xaml.cs",
-				"/C/project/160125_HImgDownloader/HImgDownloader.sln",
-				"/c/project/151019_Windows-universal-samples/Samples/WiFiDirectServices/cs/Helpers/BufferConverter.cs",
-				"/c/project/151019_Windows-universal-samples/Samples/CameraResolution/cs/StreamResolution.cs",
-				"/c/project/151019_Windows-universal-samples/Samples/HttpClient/cs/HttpClient.sln",
-				"/c/project/151019_Windows-universal-samples/Samples/FileAccess/js/FileAccess.sln",
-				"/c/hhdcommand/PsScripts/hhd-get-diskinventory-with-param.ps1",
-				"/c/hhdcommand/PsScripts/hhd-test-pipeline-script.ps1",
-				"/c/hhdcommand/PsScripts/hhdcat.ps1",
-				"/c/hhdcommand/PsScripts/hhdcatps.ps1",
-				"/c/hhdcommand/PsScripts/hhdtest.ps1",
-				"/c/hhdcommand/PsScripts/profile.ps1",
-				"/c/hhdcommand/PsScripts/update-profile-ps1.bat",
-				"/C/hhdcommand/PsScripts/profile.ps1",
-				"/C/Windows/System32/WindowsPowerShell/v1.0/profile.ps1",
-				"/C/Windows/System32/WindowsPowerShell/v1.0/*.ps1",
-				"/C/Users/Hyundong/Documents/WindowsPowerShell/Microsoft.PowerShellISE_profile.ps1",
-				"/C/project/151204_KalbumDownloader/installer/scripts/CustomFunctions.nsh",
-				"/C/project/151204_KalbumDownloader/deploy/build-deploy.bat",
-				"/C/project/151204_KalbumDownloader/installer/scripts/Installer.nsi",
-				"/C/temp/KalbumDownloader.xap-160104_1417.log",
-				"/C/project/151204_KalbumDownloader/installer-mac2/postflight.sh",
-				"/C/project/151204_KalbumDownloader/installer-mac2/update-xap.sh",
-				"/C/project/151204_KalbumDownloader/installer-mac2/kalbumdownloader.pkgproj.pmdoc/index.xml",
-				"/C/project/151204_KalbumDownloader/installer-mac2/kalbumdownloader.pkgproj.pmdoc/03silverlight.xml",
-				"/C/project/151204_KalbumDownloader/installer-mac2/kalbumdownloader.pkgproj.pmdoc/03silverlight-contents.xml",
-				"/C/project/151204_KalbumDownloader/installer-mac2/kalbumdownloader.pkgproj.pmdoc/02oob.xml",
-				"/C/project/151204_KalbumDownloader/installer-mac2/kalbumdownloader.pkgproj.pmdoc/02oob-contents.xml",
-				"/C/project/151204_KalbumDownloader/installer-mac2/kalbumdownloader.pkgproj.pmdoc/01kalbumdownloader.xml",
-				"/C/project/151204_KalbumDownloader/installer-mac2/kalbumdownloader.pkgproj.pmdoc/01kalbumdownloader-contents.xml",
-				"/C/project/151204_KalbumDownloader/installer-mac2/KalbumDownloader.app/Contents/Info.plist",
-				"/C/project/151204_KalbumDownloader/installer-mac2/oob/630798317.kalbumdownloader2.azurewebsites.net/index.html",
-				"/C/project/151204_KalbumDownloader/installer-mac2/oob/index/kalbumdownloader2.azurewebsites.net",
-				"/C/project/151204_KalbumDownloader/installer-mac2/oob/123456789.kalbumdownloader2.azurewebsites.net/metadata",
-				"/C/project/151204_KalbumDownloader/installer-mac2/oob/630798317.kalbumdownloader2.azurewebsites.net/metadata",
-				"/C/project/151204_KalbumDownloader/installer-mac2/Silverlight.dmg",
-				"/C/project/151204_KalbumDownloader/installer-mac/oob/index/kalbumdownloader2.azurewebsites.net",
-				"/C/project/151204_KalbumDownloader/KalbumDownloader.sln",
-				"/C/project/151204_KalbumDownloader/KalbumDownloader/KalbumDownloader.csproj",
-				"/C/util/ReSharperSetup 8.0/라이센스.txt",
-				"/C/temp/ka-android-master/ka-android-master/KakaoAlbum/src/main/java/com/kakao/album/StringKeySet.java",
-				"/C/temp/ka-android-master/ka-android-master/kakao-sdk/src/main/java/com/kakao/Session.java",
-				"/C/temp/ka-android-master/ka-android-master/KakaoAlbum/res/values-hdpi/strings.xml",
-				"/C/temp/ka-android-master/ka-android-master/kakao-sdk/src/main/java/com/kakao/KakaoLink.java",
-				"/C/temp/ka-android-master/ka-android-master/kakao-sdk/src/main/java/com/kakao/LoginActivity.java",
-				"/C/temp/ka-android-master/ka-android-master/KakaoAlbum/AndroidManifest.xml",
-				"/C/temp/ka-android-master/ka-android-master/README",
-				"/C/project/150515_korder-agent-win32/dist/build-deploy.bat",
-				"/C/Users/Hyundong/Documents/KalbumBk/_imgUrlList.json",
-				"/C/Users/Hyundong/Documents/KalbumBk/kalbumFiles.json",
-				"/C/temp/EFPowerTools.vsix/EFPowerTools.pkgdef",
-				"/C/temp/EFPowerTools.vsix/[Content_Types].xml",
-				"/C/temp/EFPowerTools.vsix/extension.vsixmanifest",
-				"/C/project/151030_HhdAzureBlobFtp/인증서생성.bat",
-				"/C/project/151204_KalbumDownloader/XapLauncher.sln",
-				"/C/project/151204_KalbumDownloader/.gitignore",
-				"/C/hhdcommand/Sublime Text 2.0.2/register-at-context-menu-sublime.reg",
-				"/C/hhdcommand/Sublime Text 2.0.2/sublime_plugin.py",
-				"/C/project/151030_HhdAzureBlobFtp/AzureBaseLib/Storage/CloudQueueClientEx.cs",
-				"/C/eula.1031.txt",
-				"/C/project/151030_HhdAzureBlobFtp/AzureBaseLib/bin/Debug/Microsoft.Owin.xml",
-				"/C/project/151030_HhdAzureBlobFtp/AzureBaseLib/Storage/CloudBlobClientEx.cs",
-				"/C/project/151030_HhdAzureBlobFtp/AzureBaseLib/bin/Release/Microsoft.WindowsAzure.Diagnostics.xml",
-				"/C/hhdcommand/Sublime Text 2.0.2/Data/Packages/User/Preferences.sublime-settings",
-				"/C/hhdcommand/Sublime Text 2.0.2/Data/Packages/User/Default (Windows).sublime-keymap",
-				"/C/Users/Hyundong/AppData/Local/Microsoft/Silverlight/OutOfBrowser/1531860648.kalbumdownloader2.azurewebsites.net/metadata",
-				"/C/Users/Hyundong/AppData/Local/Microsoft/Silverlight/OutOfBrowser/1531860648.kalbumdownloader2.azurewebsites.net/index.html",
-				"/C/Users/Hyundong/AppData/Local/Microsoft/Silverlight/OutOfBrowser/1531860648.kalbumdownloader2.azurewebsites.net/installstate",
-				"/C/Users/Hyundong/AppData/Local/Microsoft/Silverlight/OutOfBrowser/1531860648.kalbumdownloader2.azurewebsites.net/state",
-				"/C/Users/Hyundong/AppData/Local/Microsoft/Silverlight/OutOfBrowser/1531860648.kalbumdownloader2.azurewebsites.net/Jit32.profile",
-				"/C/project/151204_KalbumDownloader/deploy/aaa",
-				"/C/project/151203_KalbumDownloader/deploy/build-deploy.bat",
-				"/C/temp/코드 테스트.html",
-				"/C/temp/MIT App Inventor 2.html",
-				"/C/project/151203_KalbumDownloader/XapLauncher/XapLauncher.vcxproj",
-				"/C/project/151203_KalbumDownloader/XapLauncher/XapLauncher.sln",
-				"/C/project/151203_KalbumDownloader/XapLauncher/XapLauncher.ico",
-				"/C/project/151203_KalbumDownloader/XapLauncher/XapLauncher.cpp",
-				"/C/project/151203_KalbumDownloader/XapLauncher/XapLauncher.h",
-				"/C/project/151203_KalbumDownloader/XapLauncher/stdafx.cpp",
-				"/C/project/151203_KalbumDownloader/XapLauncher/stdafx.h",
-				"/C/project/151203_KalbumDownloader/XapLauncher/XapLauncher.rc",
-				"/C/project/151203_KalbumDownloader/installer/scripts/Installer.nsi",
-				"/C/project/151203_KalbumDownloader/KalbumDownloader.Web/Properties/PublishProfiles/kalbumdownloader.pubxml",
-				"/C/project/151203_KalbumDownloader/KalbumDownloader.Web/Properties/PublishProfiles/kalbumdownloader.pubxml.user",
-				"/C/project/151203_KalbumDownloader/SLBaseLib/SLBaseLib.csproj",
-				"/C/project/151203_KalbumDownloader/KalbumDownloader/KalbumDownloader.csproj",
-				"/C/project/150515_korder-agent-win32/KorderStore/KorderStore.csproj",
-				"/C/temp/FlatUI/FlatUI/FlatUI.xml",
-				"/C/hhdcommand/keyboard type 101, 103/to-keyboard-type-to-103.reg",
-				"/C/hhdcommand/keyboard type 101, 103/to-keyboard-type-to-101c.reg",
-				"/C/hhdcommand/keyboard type 101, 103/to-keyboard-type-to-101a.reg",
-				"/C/hhdcommand/keyboard type 101, 103/to-keyboard-type-to-101b.reg",
-				"/C/temp/노트북한영.reg",
-				"/C/temp/test.reg",
-				"/C/hhdcommand/keyboard type 101, 103/to-keyboard-type-to-101.reg",
-				"/C/project/151013_WpfWin32Interop/Win32App/Win32App.vcxproj",
-				"/C/project/150923_WpfWin32Interop/MFCHostWPF-Src/HhdClrApp/HhdClrApp.vcxproj",
-				"/C/project/150923_WpfWin32Interop/MFCHostWPF-Src/Win32App/Win32App.vcxproj",
-				"/C/project/150923_WpfWin32Interop/MFCHostWPF-Src/HhdWpfLib/HhdWpfLib.csproj",
-				"/C/project/150923_WpfWin32Interop/MFCHostWPF-Src/MFCHostWPF/MFCHostWPF.vcxproj",
-				"/C/project/150904_RegexStudy/RegexStudy/RegexStudy/CrawlingTest.cs",
-				"/C/project/150712_PowerShell3Study/news.txt",
-				"/C/project/150712_PowerShell3Study/news2.txt",
-				"/C/project/150712_PowerShell3Study/news3.txt",
-				"/C/temp/abc.csv",
-				"/C/?",
-				"/C/Users/Hyundong/VirtualBox VMs/winxp-hhd/winxp.vbox",
-				"/C/Users/Hyundong/VirtualBox VMs/winxp-hhd/winxp-hhd.vbox",
-				"/C/Users/Hyundong/VirtualBox VMs/winxp-hhd/winxp.vbox-prev",
-				"/C/Users/Hyundong/VirtualBox VMs/winxp-hhd/winxp.vdi",
-				"/C/project/150515_korder-agent-win32/dist/archive/LotteAngel/LotteAngel-150826 2035/dist/Debug/LotteAngel.sql",
-				"/C/util/VisualAssistX/시리얼키.txt",
-				"/C/hhdcommand/Sublime Text 2.0.2/시리얼키.txt",
-				"/C/project/150515_korder-agent-win32/.gitignore",
-				"/C/temp/VisualAssistX구매당시메일.txt"
-			],
-			"find":
-			{
-				"height": 34.0
-			},
-			"find_in_files":
-			{
-				"height": 0.0,
-				"where_history":
-				[
-					"*.cs",
-					"",
-					"*",
-					"<open files>",
-					"KorderStore",
-					"Xap",
-					"KalbumDownloader"
-				]
-			},
-			"find_state":
-			{
-				"case_sensitive": false,
-				"find_history":
-				[
-					"file://",
-					"new Uri(\"ms-",
-					".source =",
-					"Cry",
-					"OpenTransactedWriteAsync",
-					"log",
-					"GetBufferFromString",
-					"FileIO.WriteB",
-					"fileio.wrie",
-					"fileio",
-					"FileIO.W",
-					"FileIO",
-					"KnownFolders",
-					"base64",
-					"deployappx.bat",
-					"deployappx",
-					"bllCmn",
-					"DicString",
-					"_params",
-					"strShopCode",
-					"KalbumDownloader.xap?5",
-					"630798317",
-					"302711788",
-					"FolderDialog",
-					"startup",
-					"kakao_app_key",
-					"com.kakao.sdk.AppKey",
-					"app_key",
-					"CODE_REQUEST_TYPE_KEY",
-					"daumkakaocom",
-					"daumkakaocom_cert",
-					"VisualStudio",
-					"CloudBlobClient",
-					"CloudBlobClient _client;",
-					"cloud",
-					"azure",
-					"style",
-					"html",
-					"\n",
-					"sil",
-					"silverlight",
-					"Silverlight",
-					"silverlight",
-					"Silverlight",
-					"silverlight",
-					"body",
-					"\n    ",
-					"\n",
-					"html",
-					"div",
-					"MSG_UNINATALL_COMPLETED",
-					"javascript",
-					"html",
-					"KorderStore",
-					"\nKorderStore",
-					"KorderStore",
-					"order",
-					"KakaoOrder",
-					"KalbumDownloader",
-					"KakaoOrderStore",
-					"config",
-					"font",
-					"font-family",
-					"font-fa",
-					"lib",
-					"winxp",
-					"dll",
-					"PosMainForLotteAngel",
-					"posmainfor",
-					"AgentForLotteAngel",
-					"index",
-					"crash",
-					"devenv",
-					"width",
-					"beta_dev",
-					"\n</",
-					"useUpdater",
-					"pressed by keypad",
-					"press",
-					"detailVersion",
-					"%installerDetailName%",
-					"dgatepass",
-					"dakao",
-					"401",
-					"beta",
-					"exe",
-					".p",
-					"pvk",
-					"ppk",
-					"xap",
-					"ico",
-					"Branding",
-					"v2.46",
-					"PRODUCT_NAME_VERSION",
-					"TIME_INSTALLER_SPLASH",
-					"system.web",
-					"txt_addr",
-					"// Required"
-				],
-				"highlight": true,
-				"in_selection": false,
-				"preserve_case": false,
-				"regex": false,
-				"replace_history":
-				[
-					"KalbumDownloader.xap",
-					"123456789",
-					"kakao",
-					">\n",
-					"style",
-					"htmlhtml",
-					"Xap",
-					"winxp-hhd",
-					"PosMainFake",
-					"AgentFake",
-					""
-				],
-				"reverse": false,
-				"show_context": true,
-				"use_buffer2": false,
-				"whole_word": false,
-				"wrap": true
-			},
-			"incremental_find":
-			{
-				"height": 34.0
-			},
-			"input":
-			{
-				"height": 32.0
-			},
-			"layout":
-			{
-				"cells":
-				[
-					[
-						0,
-						0,
-						1,
-						1
-					]
-				],
-				"cols":
-				[
-					0.0,
-					1.0
-				],
-				"rows":
-				[
-					0.0,
-					1.0
-				]
-			},
-			"menu_visible": true,
-			"output.exec":
-			{
-				"height": 106.0
-			},
-			"output.find_results":
-			{
-				"height": 326.0
-			},
-			"replace":
-			{
-				"height": 62.0
-			},
-			"save_all_on_build": true,
-			"select_file":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-					[
-						"http",
-						"HttpClient/cs/HttpClient.sln"
-					],
-					[
-						"stream",
-						"CameraResolution/cs/StreamResolution.cs"
-					],
-					[
-						"buffer",
-						"WiFiDirectServices/cs/Helpers/BufferConverter.cs"
-					],
-					[
-						"file",
-						"FileAccess/js/FileAccess.sln"
-					],
-					[
-						"key",
-						"KakaoAlbum/src/main/java/com/kakao/album/StringKeySet.java"
-					],
-					[
-						"activityjava",
-						"kakao-sdk/src/main/java/com/kakao/LoginActivity.java"
-					],
-					[
-						"xml",
-						"bin/Debug/Microsoft.Owin.xml"
-					],
-					[
-						"cloudcs",
-						"Storage/CloudBlobClientEx.cs"
-					]
-				],
-				"width": 0.0
-			},
-			"select_project":
-			{
-				"height": 500.0,
-				"selected_items":
-				[
-				],
-				"width": 380.0
-			},
-			"show_minimap": true,
-			"show_open_files": true,
-			"show_tabs": true,
-			"side_bar_visible": true,
-			"side_bar_width": 384.0,
-			"status_bar_visible": true
-		},
-		"new_window_width": 873.0
-	},
-	"windows":
-	[
-		{
-			"auto_complete":
-			{
-				"selected_items":
-				[
-					[
-						"Mb",
-						"MB_OK"
-					],
-					[
-						"sign",
-						"SIGNTOOL"
-					],
-					[
-						"dev",
-						"DEVENV"
-					],
-					[
-						"beta",
-						"beta_dev"
-					],
-					[
-						"Korder",
-						"KorderStore"
-					],
-					[
-						"install",
-						"installerDetailName"
-					],
-					[
-						"dga",
-						"dgatePassword"
-					],
-					[
-						"cert",
-						"certPassword"
-					],
-					[
-						"use",
-						"useUpdater"
-					],
-					[
-						"po",
-						"posBridge"
-					],
-					[
-						"Ver",
-						"DetailVersion"
-					],
-					[
-						"U",
-						"UpdateInfoModel"
-					],
-					[
-						"Kor",
-						"KorderStore"
-					],
-					[
-						"az",
-						"AzCopy"
-					],
-					[
-						"build",
-						"build-tools"
-					],
-					[
-						"MB",
-						"MB_OK"
-					]
-				]
-			},
-			"buffers":
-			[
-				{
-					"contents": "",
-					"file": "/C/hhdcommand/PsScripts/profile.ps1",
-					"file_size": 3933,
-					"file_write_time": 130987954447269305,
-					"settings":
-					{
-						"buffer_size": 0,
-						"line_ending": "Windows",
-						"scratch": true
-					}
-				}
-			],
-			"build_system": "",
-			"command_palette":
-			{
-				"height": 58.0,
+				"height": 392.0,
 				"selected_items":
 				[
 					[
@@ -856,7 +237,7 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 464.0
+				"width": 512.0
 			},
 			"console":
 			{
@@ -873,7 +254,12 @@
 			},
 			"file_history":
 			[
+				"/C/hhdcommand/PsDev/PsDev.sln",
+				"/C/util/Windows XP Professional K with Service Pack 3 (x86) - CD (Korean)/시리얼키.txt",
+				"/C/hhdcommand/PsDev/deploy.bat",
+				"/C/hhdcommand/PsScripts/update-profile-ps1.bat",
 				"/C/hhdcommand/PsScripts/profile.ps1",
+				"/C/util/Windows XP Professional KN with Service Pack 3 (x86) - CD (Korean)/시리얼키.txt",
 				"/C/temp/log.txt",
 				"/C/hhdcommand/.gitignore",
 				"/C/project/150518_seychelle/ActiproSoftware.WPFStudio.licenses",
@@ -995,12 +381,7 @@
 				"/C/project/150712_PowerShell3Study/news.txt",
 				"/C/project/150712_PowerShell3Study/news2.txt",
 				"/C/project/150712_PowerShell3Study/news3.txt",
-				"/C/temp/abc.csv",
-				"/C/?",
-				"/C/Users/Hyundong/VirtualBox VMs/winxp-hhd/winxp.vbox",
-				"/C/Users/Hyundong/VirtualBox VMs/winxp-hhd/winxp-hhd.vbox",
-				"/C/Users/Hyundong/VirtualBox VMs/winxp-hhd/winxp.vbox-prev",
-				"/C/Users/Hyundong/VirtualBox VMs/winxp-hhd/winxp.vdi"
+				"/C/temp/abc.csv"
 			],
 			"find":
 			{
@@ -1008,7 +389,7 @@
 			},
 			"find_in_files":
 			{
-				"height": 90.0,
+				"height": 0.0,
 				"where_history":
 				[
 					"<open files>",
@@ -1027,6 +408,640 @@
 				"case_sensitive": true,
 				"find_history":
 				[
+					">\n",
+					"–",
+					"Function",
+					"wrappanel",
+					"file://",
+					"new Uri(\"ms-",
+					".source =",
+					"Cry",
+					"OpenTransactedWriteAsync",
+					"log",
+					"GetBufferFromString",
+					"FileIO.WriteB",
+					"fileio.wrie",
+					"fileio",
+					"FileIO.W",
+					"FileIO",
+					"KnownFolders",
+					"base64",
+					"deployappx.bat",
+					"deployappx",
+					"bllCmn",
+					"DicString",
+					"_params",
+					"strShopCode",
+					"KalbumDownloader.xap?5",
+					"630798317",
+					"302711788",
+					"FolderDialog",
+					"startup",
+					"kakao_app_key",
+					"com.kakao.sdk.AppKey",
+					"app_key",
+					"CODE_REQUEST_TYPE_KEY",
+					"daumkakaocom",
+					"daumkakaocom_cert",
+					"VisualStudio",
+					"CloudBlobClient",
+					"CloudBlobClient _client;",
+					"cloud",
+					"azure",
+					"style",
+					"html",
+					"\n",
+					"sil",
+					"silverlight",
+					"Silverlight",
+					"silverlight",
+					"Silverlight",
+					"silverlight",
+					"body",
+					"\n    ",
+					"\n",
+					"html",
+					"div",
+					"MSG_UNINATALL_COMPLETED",
+					"javascript",
+					"html",
+					"KorderStore",
+					"\nKorderStore",
+					"KorderStore",
+					"order",
+					"KakaoOrder",
+					"KalbumDownloader",
+					"KakaoOrderStore",
+					"config",
+					"font",
+					"font-family",
+					"font-fa",
+					"lib",
+					"winxp",
+					"dll",
+					"PosMainForLotteAngel",
+					"posmainfor",
+					"AgentForLotteAngel",
+					"index",
+					"crash",
+					"devenv",
+					"width",
+					"beta_dev",
+					"\n</",
+					"useUpdater",
+					"pressed by keypad",
+					"press",
+					"detailVersion",
+					"%installerDetailName%",
+					"dgatepass",
+					"dakao",
+					"401",
+					"beta",
+					"exe",
+					".p",
+					"pvk",
+					"ppk",
+					"xap",
+					"ico",
+					"Branding",
+					"v2.46",
+					"PRODUCT_NAME_VERSION",
+					"TIME_INSTALLER_SPLASH",
+					"system.web",
+					"txt_addr",
+					"// Required"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"-",
+					"function",
+					"KalbumDownloader.xap",
+					"123456789",
+					"kakao",
+					">\n",
+					"style",
+					"htmlhtml",
+					"Xap",
+					"winxp-hhd",
+					"PosMainFake",
+					"AgentFake",
+					""
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": false,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 34.0
+			},
+			"input":
+			{
+				"height": 32.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 106.0
+			},
+			"output.find_results":
+			{
+				"height": 326.0
+			},
+			"replace":
+			{
+				"height": 62.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"http",
+						"HttpClient/cs/HttpClient.sln"
+					],
+					[
+						"stream",
+						"CameraResolution/cs/StreamResolution.cs"
+					],
+					[
+						"buffer",
+						"WiFiDirectServices/cs/Helpers/BufferConverter.cs"
+					],
+					[
+						"file",
+						"FileAccess/js/FileAccess.sln"
+					],
+					[
+						"key",
+						"KakaoAlbum/src/main/java/com/kakao/album/StringKeySet.java"
+					],
+					[
+						"activityjava",
+						"kakao-sdk/src/main/java/com/kakao/LoginActivity.java"
+					],
+					[
+						"xml",
+						"bin/Debug/Microsoft.Owin.xml"
+					],
+					[
+						"cloudcs",
+						"Storage/CloudBlobClientEx.cs"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 243.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 738.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"Mb",
+						"MB_OK"
+					],
+					[
+						"sign",
+						"SIGNTOOL"
+					],
+					[
+						"dev",
+						"DEVENV"
+					],
+					[
+						"beta",
+						"beta_dev"
+					],
+					[
+						"Korder",
+						"KorderStore"
+					],
+					[
+						"install",
+						"installerDetailName"
+					],
+					[
+						"dga",
+						"dgatePassword"
+					],
+					[
+						"cert",
+						"certPassword"
+					],
+					[
+						"use",
+						"useUpdater"
+					],
+					[
+						"po",
+						"posBridge"
+					],
+					[
+						"Ver",
+						"DetailVersion"
+					],
+					[
+						"U",
+						"UpdateInfoModel"
+					],
+					[
+						"Kor",
+						"KorderStore"
+					],
+					[
+						"az",
+						"AzCopy"
+					],
+					[
+						"build",
+						"build-tools"
+					],
+					[
+						"MB",
+						"MB_OK"
+					]
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 392.0,
+				"selected_items":
+				[
+					[
+						"c#",
+						"Set Syntax: C#"
+					],
+					[
+						"powersh",
+						"SublimeREPL: PowerShell"
+					],
+					[
+						"POWERSH",
+						"SublimeREPL: PowerShell"
+					],
+					[
+						"java",
+						"Set Syntax: Java"
+					],
+					[
+						"xml",
+						"Set Syntax: XML"
+					],
+					[
+						"XML",
+						"Set Syntax: XML"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"package",
+						"Package Control: Install Package"
+					],
+					[
+						"pretty",
+						"Pretty JSON: Format (Pretty Print) JSON"
+					],
+					[
+						"install pa",
+						"Package Control: Install Package"
+					],
+					[
+						"syntax xml",
+						"Set Syntax: XML"
+					],
+					[
+						"wrap",
+						"Word Wrap: Toggle"
+					],
+					[
+						"encoding",
+						"ConvertToUTF8: Reload with Encoding"
+					],
+					[
+						"hexviewew",
+						"Hex Viewer: Toggle Hex View"
+					],
+					[
+						"hexview",
+						"Hex Viewer: Toggle Hex View"
+					],
+					[
+						"hexviewer",
+						"Hex Viewer: Toggle Hex View"
+					],
+					[
+						"toggle",
+						"Hex Viewer: Toggle Hex View"
+					],
+					[
+						"hexto",
+						"Hex Viewer: Toggle Hex View"
+					],
+					[
+						"xaml",
+						"Set Syntax: YAML"
+					],
+					[
+						"c++",
+						"Set Syntax: C++"
+					],
+					[
+						"wra",
+						"Word Wrap: Toggle"
+					],
+					[
+						"pack",
+						"Package Control: List Packages"
+					],
+					[
+						"syn",
+						"Set Syntax: Ruby"
+					],
+					[
+						"python",
+						"Set Syntax: Python"
+					],
+					[
+						"pac",
+						"Package Control: Install Package"
+					],
+					[
+						"packageco",
+						"Package Control: Remove Package"
+					],
+					[
+						"plugin",
+						"SublimeCodeIntel: Disable Plugin"
+					],
+					[
+						"html",
+						"Set Syntax: HTML"
+					],
+					[
+						"json",
+						"Set Syntax: JSON"
+					],
+					[
+						"javas",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"packagein",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 512.0
+			},
+			"console":
+			{
+				"height": 132.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/C/project/140701_godiva-android/app/src/main/res/values-ko/strings.xml",
+				"/C/project/140701_godiva-android/app/src/main/res/layout/view_group_find_total_cat.xml",
+				"/C/project/140701_godiva-android/app/src/main/java/com/kakao/group/ui/layout/GroupFindLayout.java",
+				"/C/project/140701_godiva-android/app/src/main/java/com/kakao/group/ui/adapter/GroupFindViewHolders.java",
+				"/C/project/140701_godiva-android/app/src/main/java/com/kakao/group/ui/adapter/GroupFindAdapter.java",
+				"/C/project/140701_godiva-android/app/src/main/java/com/kakao/group/ui/GroupCategoryNavigator.java",
+				"/C/project/140701_godiva-android/app/src/main/java/com/kakao/group/ui/activity/GroupFindActivity.java",
+				"/C/project/140701_godiva-android/app/src/main/java/com/kakao/group/io/api/GroupApi.java",
+				"/C/project/140701_godiva-android/app/src/main/java/com/kakao/group/constant/StringKeySet.java",
+				"/C/hhdcommand/PsDev/PsDev.sln",
+				"/C/util/Windows XP Professional K with Service Pack 3 (x86) - CD (Korean)/시리얼키.txt",
+				"/C/hhdcommand/PsDev/deploy.bat",
+				"/C/hhdcommand/PsScripts/update-profile-ps1.bat",
+				"/C/hhdcommand/PsScripts/profile.ps1",
+				"/C/util/Windows XP Professional KN with Service Pack 3 (x86) - CD (Korean)/시리얼키.txt",
+				"/C/temp/log.txt",
+				"/C/hhdcommand/.gitignore",
+				"/C/project/150518_seychelle/ActiproSoftware.WPFStudio.licenses",
+				"/C/project/mygittest/out.file.txt",
+				"/C/project/mygittest/dir.txt",
+				"/C/Windows/System32/WindowsPowerShell/v1.0/posh-monokai.ps1",
+				"/C/hhdcommand/PsScripts/*.ps1",
+				"/C/hhdcommand/PsScripts/ps1",
+				"/c/project/151019_Windows-universal-samples/Samples/AllJoyn/ProducerExperiences/cs/CryptographicHelpers.cs",
+				"/c/project/151019_Windows-universal-samples/Samples/FileAccess/cs/Scenario5_WriteAndReadAFileUsingAStream.xaml.cs",
+				"/c/project/151019_Windows-universal-samples/Samples/BackgroundTransfer/cs/BackgroundTransfer/Scenario1_Download.xaml.cs",
+				"/c/project/151019_Windows-universal-samples/Samples/FileAccess/cs/Scenario4_WriteAndReadBytesInAFile.xaml.cs",
+				"/c/project/151019_Windows-universal-samples/Samples/FilePickerContracts/cs/FileOpenPicker_PickCachedFile.xaml.cs",
+				"/c/project/151019_Windows-universal-samples/Samples/Playlists/cs/Scenario1_Create.xaml.cs",
+				"/c/project/151019_Windows-universal-samples/Samples/AdaptiveStreaming/cs/Scenario4.xaml.cs",
+				"/c/project/151019_Windows-universal-samples/Samples/VoIP/cs/VoipTasks/Helpers/VccCallHelper.cs",
+				"/c/project/151019_Windows-universal-samples/Samples/ApplicationData/cs/Scenario7_Msappdata.xaml.cs",
+				"/c/project/151019_Windows-universal-samples/Samples/HttpClient/cs/HttpClient/Scenario2_GetStream.xaml.cs",
+				"/C/project/160125_HImgDownloader/HImgDownloader.sln",
+				"/c/project/151019_Windows-universal-samples/Samples/WiFiDirectServices/cs/Helpers/BufferConverter.cs",
+				"/c/project/151019_Windows-universal-samples/Samples/CameraResolution/cs/StreamResolution.cs",
+				"/c/project/151019_Windows-universal-samples/Samples/HttpClient/cs/HttpClient.sln",
+				"/c/project/151019_Windows-universal-samples/Samples/FileAccess/js/FileAccess.sln",
+				"/c/hhdcommand/PsScripts/hhd-get-diskinventory-with-param.ps1",
+				"/c/hhdcommand/PsScripts/hhd-test-pipeline-script.ps1",
+				"/c/hhdcommand/PsScripts/hhdcat.ps1",
+				"/c/hhdcommand/PsScripts/hhdcatps.ps1",
+				"/c/hhdcommand/PsScripts/hhdtest.ps1",
+				"/c/hhdcommand/PsScripts/profile.ps1",
+				"/c/hhdcommand/PsScripts/update-profile-ps1.bat",
+				"/C/Windows/System32/WindowsPowerShell/v1.0/profile.ps1",
+				"/C/Windows/System32/WindowsPowerShell/v1.0/*.ps1",
+				"/C/Users/Hyundong/Documents/WindowsPowerShell/Microsoft.PowerShellISE_profile.ps1",
+				"/C/project/151204_KalbumDownloader/installer/scripts/CustomFunctions.nsh",
+				"/C/project/151204_KalbumDownloader/deploy/build-deploy.bat",
+				"/C/project/151204_KalbumDownloader/installer/scripts/Installer.nsi",
+				"/C/temp/KalbumDownloader.xap-160104_1417.log",
+				"/C/project/151204_KalbumDownloader/installer-mac2/postflight.sh",
+				"/C/project/151204_KalbumDownloader/installer-mac2/update-xap.sh",
+				"/C/project/151204_KalbumDownloader/installer-mac2/kalbumdownloader.pkgproj.pmdoc/index.xml",
+				"/C/project/151204_KalbumDownloader/installer-mac2/kalbumdownloader.pkgproj.pmdoc/03silverlight.xml",
+				"/C/project/151204_KalbumDownloader/installer-mac2/kalbumdownloader.pkgproj.pmdoc/03silverlight-contents.xml",
+				"/C/project/151204_KalbumDownloader/installer-mac2/kalbumdownloader.pkgproj.pmdoc/02oob.xml",
+				"/C/project/151204_KalbumDownloader/installer-mac2/kalbumdownloader.pkgproj.pmdoc/02oob-contents.xml",
+				"/C/project/151204_KalbumDownloader/installer-mac2/kalbumdownloader.pkgproj.pmdoc/01kalbumdownloader.xml",
+				"/C/project/151204_KalbumDownloader/installer-mac2/kalbumdownloader.pkgproj.pmdoc/01kalbumdownloader-contents.xml",
+				"/C/project/151204_KalbumDownloader/installer-mac2/KalbumDownloader.app/Contents/Info.plist",
+				"/C/project/151204_KalbumDownloader/installer-mac2/oob/630798317.kalbumdownloader2.azurewebsites.net/index.html",
+				"/C/project/151204_KalbumDownloader/installer-mac2/oob/index/kalbumdownloader2.azurewebsites.net",
+				"/C/project/151204_KalbumDownloader/installer-mac2/oob/123456789.kalbumdownloader2.azurewebsites.net/metadata",
+				"/C/project/151204_KalbumDownloader/installer-mac2/oob/630798317.kalbumdownloader2.azurewebsites.net/metadata",
+				"/C/project/151204_KalbumDownloader/installer-mac2/Silverlight.dmg",
+				"/C/project/151204_KalbumDownloader/installer-mac/oob/index/kalbumdownloader2.azurewebsites.net",
+				"/C/project/151204_KalbumDownloader/KalbumDownloader.sln",
+				"/C/project/151204_KalbumDownloader/KalbumDownloader/KalbumDownloader.csproj",
+				"/C/util/ReSharperSetup 8.0/라이센스.txt",
+				"/C/temp/ka-android-master/ka-android-master/KakaoAlbum/src/main/java/com/kakao/album/StringKeySet.java",
+				"/C/temp/ka-android-master/ka-android-master/kakao-sdk/src/main/java/com/kakao/Session.java",
+				"/C/temp/ka-android-master/ka-android-master/KakaoAlbum/res/values-hdpi/strings.xml",
+				"/C/temp/ka-android-master/ka-android-master/kakao-sdk/src/main/java/com/kakao/KakaoLink.java",
+				"/C/temp/ka-android-master/ka-android-master/kakao-sdk/src/main/java/com/kakao/LoginActivity.java",
+				"/C/temp/ka-android-master/ka-android-master/KakaoAlbum/AndroidManifest.xml",
+				"/C/temp/ka-android-master/ka-android-master/README",
+				"/C/project/150515_korder-agent-win32/dist/build-deploy.bat",
+				"/C/Users/Hyundong/Documents/KalbumBk/_imgUrlList.json",
+				"/C/Users/Hyundong/Documents/KalbumBk/kalbumFiles.json",
+				"/C/temp/EFPowerTools.vsix/EFPowerTools.pkgdef",
+				"/C/temp/EFPowerTools.vsix/[Content_Types].xml",
+				"/C/temp/EFPowerTools.vsix/extension.vsixmanifest",
+				"/C/project/151030_HhdAzureBlobFtp/인증서생성.bat",
+				"/C/project/151204_KalbumDownloader/XapLauncher.sln",
+				"/C/project/151204_KalbumDownloader/.gitignore",
+				"/C/hhdcommand/Sublime Text 2.0.2/register-at-context-menu-sublime.reg",
+				"/C/hhdcommand/Sublime Text 2.0.2/sublime_plugin.py",
+				"/C/project/151030_HhdAzureBlobFtp/AzureBaseLib/Storage/CloudQueueClientEx.cs",
+				"/C/eula.1031.txt",
+				"/C/project/151030_HhdAzureBlobFtp/AzureBaseLib/bin/Debug/Microsoft.Owin.xml",
+				"/C/project/151030_HhdAzureBlobFtp/AzureBaseLib/Storage/CloudBlobClientEx.cs",
+				"/C/project/151030_HhdAzureBlobFtp/AzureBaseLib/bin/Release/Microsoft.WindowsAzure.Diagnostics.xml",
+				"/C/hhdcommand/Sublime Text 2.0.2/Data/Packages/User/Preferences.sublime-settings",
+				"/C/hhdcommand/Sublime Text 2.0.2/Data/Packages/User/Default (Windows).sublime-keymap",
+				"/C/Users/Hyundong/AppData/Local/Microsoft/Silverlight/OutOfBrowser/1531860648.kalbumdownloader2.azurewebsites.net/metadata",
+				"/C/Users/Hyundong/AppData/Local/Microsoft/Silverlight/OutOfBrowser/1531860648.kalbumdownloader2.azurewebsites.net/index.html",
+				"/C/Users/Hyundong/AppData/Local/Microsoft/Silverlight/OutOfBrowser/1531860648.kalbumdownloader2.azurewebsites.net/installstate",
+				"/C/Users/Hyundong/AppData/Local/Microsoft/Silverlight/OutOfBrowser/1531860648.kalbumdownloader2.azurewebsites.net/state",
+				"/C/Users/Hyundong/AppData/Local/Microsoft/Silverlight/OutOfBrowser/1531860648.kalbumdownloader2.azurewebsites.net/Jit32.profile",
+				"/C/project/151204_KalbumDownloader/deploy/aaa",
+				"/C/project/151203_KalbumDownloader/deploy/build-deploy.bat",
+				"/C/temp/코드 테스트.html",
+				"/C/temp/MIT App Inventor 2.html",
+				"/C/project/151203_KalbumDownloader/XapLauncher/XapLauncher.vcxproj",
+				"/C/project/151203_KalbumDownloader/XapLauncher/XapLauncher.sln",
+				"/C/project/151203_KalbumDownloader/XapLauncher/XapLauncher.ico",
+				"/C/project/151203_KalbumDownloader/XapLauncher/XapLauncher.cpp",
+				"/C/project/151203_KalbumDownloader/XapLauncher/XapLauncher.h",
+				"/C/project/151203_KalbumDownloader/XapLauncher/stdafx.cpp",
+				"/C/project/151203_KalbumDownloader/XapLauncher/stdafx.h",
+				"/C/project/151203_KalbumDownloader/XapLauncher/XapLauncher.rc",
+				"/C/project/151203_KalbumDownloader/installer/scripts/Installer.nsi",
+				"/C/project/151203_KalbumDownloader/KalbumDownloader.Web/Properties/PublishProfiles/kalbumdownloader.pubxml",
+				"/C/project/151203_KalbumDownloader/KalbumDownloader.Web/Properties/PublishProfiles/kalbumdownloader.pubxml.user",
+				"/C/project/151203_KalbumDownloader/SLBaseLib/SLBaseLib.csproj",
+				"/C/project/151203_KalbumDownloader/KalbumDownloader/KalbumDownloader.csproj",
+				"/C/project/150515_korder-agent-win32/KorderStore/KorderStore.csproj",
+				"/C/temp/FlatUI/FlatUI/FlatUI.xml",
+				"/C/hhdcommand/keyboard type 101, 103/to-keyboard-type-to-103.reg",
+				"/C/hhdcommand/keyboard type 101, 103/to-keyboard-type-to-101c.reg",
+				"/C/hhdcommand/keyboard type 101, 103/to-keyboard-type-to-101a.reg",
+				"/C/hhdcommand/keyboard type 101, 103/to-keyboard-type-to-101b.reg",
+				"/C/temp/노트북한영.reg",
+				"/C/temp/test.reg",
+				"/C/hhdcommand/keyboard type 101, 103/to-keyboard-type-to-101.reg",
+				"/C/project/151013_WpfWin32Interop/Win32App/Win32App.vcxproj"
+			],
+			"find":
+			{
+				"height": 34.0
+			},
+			"find_in_files":
+			{
+				"height": 90.0,
+				"where_history":
+				[
+					"*",
+					"<open files>",
+					"",
+					"*.cs",
+					"",
+					"*",
+					"<open files>",
+					"KorderStore",
+					"Xap",
+					"KalbumDownloader"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"group_categories",
+					"getGroupCategories",
+					"GROUP_GET_GROUP_CATEGORIES",
+					"GroupCategorySelectedEvent",
+					"onClickGroupCategory",
+					"onClickStudentGroup",
+					"totalCatGroups.",
+					"totalCatGroups",
+					"TopCatVh",
+					"view_group_find_total_cat",
+					"view_group_find",
+					"tv_category_name",
+					"label_header_total_category",
+					"전체 카테고리",
+					"Activity",
+					"졸업생",
+					">\n",
 					"–",
 					"Function",
 					"wrappanel",
@@ -1158,185 +1173,14 @@
 			"folders":
 			[
 				{
-					"path": "/c/project/151019_Windows-universal-samples/Samples"
+					"path": "/C/project/140701_godiva-android"
 				}
 			],
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/C/hhdcommand/PsScripts/profile.ps1",
-							"settings":
-							{
-								"buffer_size": 0,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"BracketHighlighterBusy": false,
-									"annotations":
-									[
-										"TODO",
-										"README",
-										"FIXME"
-									],
-									"bh_regions":
-									[
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close"
-									],
-									"csslint_options":
-									{
-										"adjoining-classes": "warning",
-										"box-model": true,
-										"box-sizing": "warning",
-										"compatible-vendor-prefixes": "warning",
-										"display-property-grouping": true,
-										"duplicate-background-images": "warning",
-										"duplicate-properties": true,
-										"empty-rules": true,
-										"errors": true,
-										"fallback-colors": "warning",
-										"floats": "warning",
-										"font-faces": "warning",
-										"font-sizes": "warning",
-										"gradients": "warning",
-										"ids": "warning",
-										"import": "warning",
-										"important": "warning",
-										"known-properties": true,
-										"outline-none": "warning",
-										"overqualified-elements": "warning",
-										"qualified-headings": "warning",
-										"regex-selectors": "warning",
-										"rules-count": "warning",
-										"shorthand": "warning",
-										"star-property-hack": "warning",
-										"text-indent": "warning",
-										"underscore-property-hack": "warning",
-										"unique-headings": "warning",
-										"universal-selector": "warning",
-										"vendor-prefix": true,
-										"zero-units": "warning"
-									},
-									"force_encoding": "EUC-KR",
-									"gjslint_ignore":
-									[
-										110.0
-									],
-									"gjslint_options":
-									[
-									],
-									"in_converting": true,
-									"javascript_linter": "jshint",
-									"jshint_options":
-									{
-										"browser": true,
-										"devel": true,
-										"evil": true,
-										"regexdash": true,
-										"sub": true,
-										"trailing": true,
-										"wsh": true
-									},
-									"origin_encoding": "EUC-KR",
-									"pep8": true,
-									"pep8_ignore":
-									[
-										"E501"
-									],
-									"perl_linter": "perlcritic",
-									"pyflakes_ignore":
-									[
-									],
-									"pyflakes_ignore_import_*": true,
-									"revert_to_scratch": true,
-									"sublimelinter": "load-save",
-									"sublimelinter_delay": 2.0,
-									"sublimelinter_disable":
-									[
-									],
-									"sublimelinter_executable_map":
-									{
-									},
-									"sublimelinter_fill_outlines": false,
-									"sublimelinter_gutter_marks": true,
-									"sublimelinter_gutter_marks_theme": "simple",
-									"sublimelinter_mark_style": "none",
-									"sublimelinter_notes": false,
-									"sublimelinter_objj_check_ascii": false,
-									"sublimelinter_popup_errors_on_save": false,
-									"sublimelinter_syntax_map":
-									{
-										"C++": "c",
-										"Python Django": "python",
-										"Ruby on Rails": "ruby"
-									},
-									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -1379,7 +1223,7 @@
 			{
 				"height": 326.0
 			},
-			"position": "0,2,3,-1,-1,-1,-1,741,-1792,240,-1038",
+			"position": "0,2,3,-1,-1,-1,-1,635,-1744,134,-990",
 			"replace":
 			{
 				"height": 62.0
@@ -1390,6 +1234,10 @@
 				"height": 0.0,
 				"selected_items":
 				[
+					[
+						"groupcatnav",
+						"app/src/main/java/com/kakao/group/ui/GroupCategoryNavigator.java"
+					],
 					[
 						"http",
 						"HttpClient/cs/HttpClient.sln"
@@ -1439,7 +1287,7 @@
 			"side_bar_visible": true,
 			"side_bar_width": 243.0,
 			"status_bar_visible": true,
-			"window_id": 19,
+			"window_id": 20,
 			"workspace_name": ""
 		}
 	],

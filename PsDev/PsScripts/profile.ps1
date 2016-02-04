@@ -15,16 +15,25 @@ Set-ExecutionPolicy Unrestricted -Scope CurrentUser
 ##############################################################################################
 # update custom profile.ps1, dlls ... 
 ##############################################################################################
-if (Test-Path "C:\hhdcommand\PsDev\PsScripts")
+if (Test-Path C:\hhdcommand\PsDev\PsScripts\profile.ps1)
 {
-    Write-Debug "PsDev 폴더 있음 ..."
-    rm -Force C:\Windows\System32\WindowsPowerShell\v1.0\profile.ps1
-    cp -Force C:\hhdcommand\PsDev\PsScripts\profile.ps1 C:\Windows\System32\WindowsPowerShell\v1.0
-    Add-Type -Path "C:\hhdcommand\PsDev\HPsUtils\bin\Debug\HPsUtils.dll"
+    Write-Debug "profile.ps1 업데이트 ..."
+    cp -Force C:\hhdcommand\PsDev\PsScripts\profile.ps1 $PSHOME
 }
 else
 {
-    Write-Debug "PsDev 폴더 없음 ..."
+    Write-Debug "profile.ps1 업데이트 스킵 ..."
+}
+
+if (Test-Path "C:\hhdcommand\PsDev\HPsUtils\bin\Debug\HPsUtils.dll")
+{
+    Write-Debug "HPsUtils.dll 업데이트 ..."
+    cp -Force C:\hhdcommand\PsDev\HPsUtils\bin\Debug\HPsUtils.dll $PSHOME
+    Add-Type -Path "$PSHOME\HPsUtils.dll"
+}
+else
+{
+    Write-Debug "HPsUtils.dll 업데이트 스킵 ..."
 }
 
 
@@ -94,9 +103,22 @@ function rmforce($path)
     rm -Recurse -Force $path
 }
 
-function piprofileps1()
+function vspsdev()
 {
-    powershell_ise c:\hhdcommand\PsScripts\profile.ps1
+    Start-Process devenv.exe -Verb runAs -ArgumentList c:\hhdcommand\PsDev\PsDev.sln
+}
+
+<#
+.SYNOPSIS
+    rm -Recurse -Force $path
+.PARAMETER path
+    파일, 디렉토리 경로
+.EXAMPLE
+    rmforce aaa
+#>
+function rmforce($path)
+{
+    rm -Recurse -Force $path
 }
 
 
@@ -107,37 +129,72 @@ function piprofileps1()
 
 <#
 .SYNOPSIS
-    시놉시스
+    mycomplexfunc 별거없다.
+.PARAMETER process
+    프로세스 객체
 .PARAMETER prefix
-    프레픽스
+    일반 문자열 객체
+.PARAMETER strArray
+    문자열 배열
 .EXAMPLE
-    PS C:\WINDOWS\system32> $DebugPreference = "continue"
-    PS C:\WINDOWS\system32> ps | select -First 5 | getcustomprocessinfo -prefix 프레픽스 -strArray @("하나", "둘", "셋")
-    디버그: strArray.Length : 3
-    디버그: idx : 0
-    디버그: randValue : 하나
-
-    디버그: strArray.Length : 3
-    디버그: idx : 1
-    디버그: randValue : 둘
-    디버그: strArray.Length : 3
-    디버그: idx : 1
-    디버그: randValue : 둘
-    디버그: strArray.Length : 3
-    디버그: idx : 1
-    디버그: randValue : 둘
+    PS C:\temp> ps | where {$_.Name -eq "chrome"} | mycomplexfunc -prefix "프레픽스" -strArray @("일", "이", "삼")
     디버그: strArray.Length : 3
     디버그: idx : 2
-    디버그: randValue : 셋
-    prefix   ProcessName          ProcessId randValue
-    ------   -----------          --------- ---------
-    프레픽스 ApplicationFrameHost     14912 하나
-    프레픽스 ccSvcHst                  3508 둘
-    프레픽스 chrome                    2220 둘
-    프레픽스 chrome                    3076 둘
-    프레픽스 chrome                    6288 셋
+    디버그: randValue : 삼
+
+    디버그: strArray.Length : 3
+    디버그: idx : 2
+    디버그: randValue : 삼
+    디버그: strArray.Length : 3
+    디버그: idx : 2
+    디버그: randValue : 삼
+    디버그: strArray.Length : 3
+    디버그: idx : 2
+    디버그: randValue : 삼
+    디버그: strArray.Length : 3
+    디버그: idx : 1
+    디버그: randValue : 이
+    디버그: strArray.Length : 3
+    디버그: idx : 1
+    디버그: randValue : 이
+    디버그: strArray.Length : 3
+    디버그: idx : 2
+    디버그: randValue : 삼
+    디버그: strArray.Length : 3
+    디버그: idx : 2
+    디버그: randValue : 삼
+    디버그: strArray.Length : 3
+    디버그: idx : 2
+    디버그: randValue : 삼
+    디버그: strArray.Length : 3
+    디버그: idx : 2
+    디버그: randValue : 삼
+    디버그: strArray.Length : 3
+    디버그: idx : 2
+    디버그: randValue : 삼
+    디버그: strArray.Length : 3
+    디버그: idx : 2
+    디버그: randValue : 삼
+    디버그: strArray.Length : 3
+    디버그: idx : 0
+    디버그: randValue : 일
+    prefix   ProcessName ProcessId randValue
+    ------   ----------- --------- ---------
+    프레픽스 chrome           8924 삼
+    프레픽스 chrome          12980 삼
+    프레픽스 chrome          13816 삼
+    프레픽스 chrome          14596 삼
+    프레픽스 chrome          16776 이
+    프레픽스 chrome          18068 이
+    프레픽스 chrome          18172 삼
+    프레픽스 chrome          18404 삼
+    프레픽스 chrome          20244 삼
+    프레픽스 chrome          20324 삼
+    프레픽스 chrome          21784 삼
+    프레픽스 chrome          22216 삼
+    프레픽스 chrome          22412 일
 #>
-function getcustomprocessinfo
+function mycomplexfunc
 {
     [CmdletBinding()]
     param
@@ -180,72 +237,5 @@ function getcustomprocessinfo
         }
 
         Write-Output $obj
-    }
-}
-
-<#
-.SYNOPSIS
-    압축
-.PARAMETER zipdir
-    압축대상폴더
-.PARAMETER zipfile
-    압축대상파일
-.EXAMPLE
-    PS C:\project> zip -zipdir mygittest -zipfile my.zip
-    디버그: zipdir : mygittest
-    디버그: zipfile : my.zip
-    디버그: zipRealDir : C:\project\mygittest
-    디버그: zipRealFile : C:\project\my.zip
-
-    zipdir    zipfile
-    ------    -------
-    mygittest my.zip
-#>
-function zip
-{
-    [CmdletBinding()]
-    param
-    (
-        [Parameter(Mandatory=$true, ValueFromPipeline=$true, ValueFromPipelinebyPropertyName=$true)]
-        [System.String]
-        $zipdir,
-
-        [Parameter(Mandatory=$true)]
-        [System.String]
-        $zipfile
-    )
-    begin
-    {
-    }
-    process
-    {
-        $oldDebugPreference = $DebugPreference
-        $DebugPreference = "continue"
-        $obj = New-Object -typename PSObject
-
-        Write-Debug ("zipdir : " + $zipdir)
-        Write-Debug ("zipfile : " + $zipfile)
-
-        Add-Type -AssemblyName System.IO.Compression.FileSystem
-
-        $zipRealDir = [System.IO.Path]::Combine($PWD, $zipdir)
-        $zipRealDir = $zipRealDir.TrimEnd([char[]]@('.', '\'))
-        $zipRealFile = [System.IO.Path]::Combine($PWD, $zipfile)
-
-        Write-Debug ("zipRealDir : " + $zipRealDir)
-        Write-Debug ("zipRealFile : " + $zipRealFile)
-
-        if (Test-Path $zipRealFile)
-        {
-            rm $zipRealFile
-        }
-        
-        [System.IO.Compression.ZipFile]::CreateFromDirectory($zipRealDir, $zipRealFile)
-
-        $obj | Add-Member -MemberType NoteProperty -Name zipdir -Value $zipdir
-        $obj | Add-Member -MemberType NoteProperty -Name zipfile -Value $zipfile
-
-        Write-Output $obj
-        $DebugPreference = $oldDebugPreference
     }
 }
