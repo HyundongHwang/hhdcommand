@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.IO.Compression;
 using System.Linq;
@@ -42,7 +43,7 @@ namespace HPsUtils
 
                 foreach (var param in m.GetParameters())
                 {
-                    helpItem.ParamList.Add(param.ToString());
+                    helpItem.ParamList.Add($"{param.ParameterType.Name} {param.Name}");
                 }
             }
 
@@ -73,17 +74,10 @@ namespace HPsUtils
             }
         }
 
-
-
-
-
-
-
-
-
-
-
-
+        public static string DoubleStr(string str)
+        {
+            return str + str;
+        }
 
 
 

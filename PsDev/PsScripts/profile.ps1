@@ -28,7 +28,7 @@ else
 if (Test-Path "C:\hhdcommand\PsDev\HPsUtils\bin\Debug\HPsUtils.dll")
 {
     Write-Debug "HPsUtils.dll 업데이트 ..."
-    cp -Force C:\hhdcommand\PsDev\HPsUtils\bin\Debug\HPsUtils.dll $PSHOME
+    cp -Force -Recurse C:\hhdcommand\PsDev\HPsUtils\bin\Debug\* $PSHOME
     Add-Type -Path "$PSHOME\HPsUtils.dll"
 }
 else
