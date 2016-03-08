@@ -1,0 +1,14 @@
+c:\project\PasteMarxicoHeader\bin\Debug\PasteMarxicoHeader.exe.config
+c:\project\PasteMarxicoHeader\bin\Debug\PasteMarxicoHeader.exe
+c:\project\PasteMarxicoHeader\bin\Debug\PasteMarxicoHeader.pdb
+c:\project\PasteMarxicoHeader\obj\Debug\PasteMarxicoHeader.csprojResolveAssemblyReference.cache
+c:\project\PasteMarxicoHeader\obj\Debug\PasteMarxicoHeader.exe
+c:\project\PasteMarxicoHeader\obj\Debug\PasteMarxicoHeader.pdb
+c:\project\PasteMarxicoHeader\bin\Debug\header-template.txt
+C:\hhdcommand\PasteMarxicoHeader\bin\Debug\PasteMarxicoHeader.exe.config
+C:\hhdcommand\PasteMarxicoHeader\obj\Debug\PasteMarxicoHeader.exe
+C:\hhdcommand\PasteMarxicoHeader\obj\Debug\PasteMarxicoHeader.pdb
+C:\hhdcommand\PasteMarxicoHeader\bin\Debug\header-template.txt
+C:\hhdcommand\PasteMarxicoHeader\bin\Debug\PasteMarxicoHeader.exe
+C:\hhdcommand\PasteMarxicoHeader\bin\Debug\PasteMarxicoHeader.pdb
+C:\hhdcommand\PasteMarxicoHeader\obj\Debug\PasteMarxicoHeader.csprojResolveAssemblyReference.cache
