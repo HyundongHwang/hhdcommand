@@ -1,6 +1,9 @@
 {
 	"folder_history":
 	[
+		"/c/project/MySignalRTest/MySignalRServer",
+		"/c/project/150308_bookoh",
+		"/c/project/160121_IoTSamples/BlinkyHeadless",
 		"/c/project/151019_UwpSamples/Samples",
 		"/c/project/160121_IoTSamples",
 		"/C/project/151019_UwpSamples",
@@ -27,10 +30,10 @@
 		"/C/project/151030_HhdAzureBlobFtp",
 		"/C/project/151030_HhdAzureBlobFtp/AzureBaseLib"
 	],
-	"last_window_id": 26,
+	"last_window_id": 30,
 	"settings":
 	{
-		"new_window_height": 442.0,
+		"new_window_height": 368.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -110,6 +113,10 @@
 				"selected_items":
 				[
 					[
+						"xml",
+						"Set Syntax: XML"
+					],
+					[
 						"c#",
 						"Set Syntax: C#"
 					],
@@ -124,10 +131,6 @@
 					[
 						"java",
 						"Set Syntax: Java"
-					],
-					[
-						"xml",
-						"Set Syntax: XML"
 					],
 					[
 						"XML",
@@ -242,7 +245,7 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 512.0
+				"width": 464.0
 			},
 			"console":
 			{
@@ -259,6 +262,17 @@
 			},
 			"file_history":
 			[
+				"/C/project/160517_ActiproSamples/ActiproWPFDockingTabbedMdiPage/DockingTabbedMdiPage1.xaml",
+				"/C/project/MyEfTest/MyEfTest.csproj",
+				"/C/project/160225_NineDragon/NineDragon.sln",
+				"/C/Program Files (x86)/Microsoft IoT/config.txt",
+				"/D/config.txt",
+				"/C/util/Windows 10 IoT Core Release Image For Rasberry PI 2/config.txt",
+				"/D/bootcode.bin",
+				"/C/hhdcommand/PasteMarxicoHeader/bin/Debug/header-template.txt",
+				"/C/Windows/SysWOW64/WindowsPowerShell/v1.0/profile.ps1",
+				"/C/hhdcommand/PsDev/PsScripts/profile.ps1",
+				"/C/project/160225_NineDragon/.gitignore",
 				"/C/Users/Hyundong/AppData/Local/Packages/bcf6b83a-25db-443c-bcc9-5e1b236c5a63_1nhp4f46kkwka/LocalState/*",
 				"/C/?",
 				"/C/project/140701_godiva-android/app/src/main/res/values-ko/strings.xml",
@@ -375,18 +389,7 @@
 				"/C/project/151203_KalbumDownloader/XapLauncher/stdafx.h",
 				"/C/project/151203_KalbumDownloader/XapLauncher/XapLauncher.rc",
 				"/C/project/151203_KalbumDownloader/installer/scripts/Installer.nsi",
-				"/C/project/151203_KalbumDownloader/KalbumDownloader.Web/Properties/PublishProfiles/kalbumdownloader.pubxml",
-				"/C/project/151203_KalbumDownloader/KalbumDownloader.Web/Properties/PublishProfiles/kalbumdownloader.pubxml.user",
-				"/C/project/151203_KalbumDownloader/SLBaseLib/SLBaseLib.csproj",
-				"/C/project/151203_KalbumDownloader/KalbumDownloader/KalbumDownloader.csproj",
-				"/C/project/150515_korder-agent-win32/KorderStore/KorderStore.csproj",
-				"/C/temp/FlatUI/FlatUI/FlatUI.xml",
-				"/C/hhdcommand/keyboard type 101, 103/to-keyboard-type-to-103.reg",
-				"/C/hhdcommand/keyboard type 101, 103/to-keyboard-type-to-101c.reg",
-				"/C/hhdcommand/keyboard type 101, 103/to-keyboard-type-to-101a.reg",
-				"/C/hhdcommand/keyboard type 101, 103/to-keyboard-type-to-101b.reg",
-				"/C/temp/노트북한영.reg",
-				"/C/temp/test.reg"
+				"/C/project/151203_KalbumDownloader/KalbumDownloader.Web/Properties/PublishProfiles/kalbumdownloader.pubxml"
 			],
 			"find":
 			{
@@ -414,6 +417,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"background",
 					"camera",
 					"group_categories",
 					"getGroupCategories",
@@ -744,9 +748,21 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 392.0,
+				"height": 196.0,
 				"selected_items":
 				[
+					[
+						"utf",
+						"ConvertToUTF8: Reload with Encoding"
+					],
+					[
+						"encodin",
+						"ConvertToUTF8: Reload with Encoding"
+					],
+					[
+						"xml",
+						"Set Syntax: XML"
+					],
 					[
 						"c#",
 						"Set Syntax: C#"
@@ -762,10 +778,6 @@
 					[
 						"java",
 						"Set Syntax: Java"
-					],
-					[
-						"xml",
-						"Set Syntax: XML"
 					],
 					[
 						"XML",
@@ -880,7 +892,7 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 512.0
+				"width": 464.0
 			},
 			"console":
 			{
@@ -897,8 +909,19 @@
 			},
 			"file_history":
 			[
-				"/C/Windows/SysWOW64/WindowsPowerShell/v1.0/profile.ps1",
+				"/c/project/150308_bookoh/인증서생성.bat",
+				"/C/project/MySignalRTest/MySignalRTest.sln",
+				"/c/project/150308_bookoh/BookohWebRole/Controllers/FilesController.cs",
 				"/C/hhdcommand/PsDev/PsScripts/profile.ps1",
+				"/C/hhdcommand/PasteMarxicoHeader/bin/Debug/header-template.txt",
+				"/C/project/160517_ActiproSamples/ActiproWPFDockingTabbedMdiPage/DockingTabbedMdiPage1.xaml",
+				"/C/project/MyEfTest/MyEfTest.csproj",
+				"/C/project/160225_NineDragon/NineDragon.sln",
+				"/C/Program Files (x86)/Microsoft IoT/config.txt",
+				"/D/config.txt",
+				"/C/util/Windows 10 IoT Core Release Image For Rasberry PI 2/config.txt",
+				"/D/bootcode.bin",
+				"/C/Windows/SysWOW64/WindowsPowerShell/v1.0/profile.ps1",
 				"/C/project/160225_NineDragon/.gitignore",
 				"/C/Users/Hyundong/AppData/Local/Packages/bcf6b83a-25db-443c-bcc9-5e1b236c5a63_1nhp4f46kkwka/LocalState/*",
 				"/C/?",
@@ -1013,18 +1036,7 @@
 				"/C/project/151203_KalbumDownloader/XapLauncher/XapLauncher.cpp",
 				"/C/project/151203_KalbumDownloader/XapLauncher/XapLauncher.h",
 				"/C/project/151203_KalbumDownloader/XapLauncher/stdafx.cpp",
-				"/C/project/151203_KalbumDownloader/XapLauncher/stdafx.h",
-				"/C/project/151203_KalbumDownloader/XapLauncher/XapLauncher.rc",
-				"/C/project/151203_KalbumDownloader/installer/scripts/Installer.nsi",
-				"/C/project/151203_KalbumDownloader/KalbumDownloader.Web/Properties/PublishProfiles/kalbumdownloader.pubxml",
-				"/C/project/151203_KalbumDownloader/KalbumDownloader.Web/Properties/PublishProfiles/kalbumdownloader.pubxml.user",
-				"/C/project/151203_KalbumDownloader/SLBaseLib/SLBaseLib.csproj",
-				"/C/project/151203_KalbumDownloader/KalbumDownloader/KalbumDownloader.csproj",
-				"/C/project/150515_korder-agent-win32/KorderStore/KorderStore.csproj",
-				"/C/temp/FlatUI/FlatUI/FlatUI.xml",
-				"/C/hhdcommand/keyboard type 101, 103/to-keyboard-type-to-103.reg",
-				"/C/hhdcommand/keyboard type 101, 103/to-keyboard-type-to-101c.reg",
-				"/C/hhdcommand/keyboard type 101, 103/to-keyboard-type-to-101a.reg"
+				"/C/project/151203_KalbumDownloader/XapLauncher/stdafx.h"
 			],
 			"find":
 			{
@@ -1052,6 +1064,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"background",
 					"camera",
 					"group_categories",
 					"getGroupCategories",
@@ -1198,12 +1211,6 @@
 				"whole_word": false,
 				"wrap": true
 			},
-			"folders":
-			[
-				{
-					"path": "/c/project/151019_UwpSamples/Samples"
-				}
-			],
 			"groups":
 			[
 				{
@@ -1251,7 +1258,7 @@
 			{
 				"height": 326.0
 			},
-			"position": "0,2,3,-32136,-32000,-1,-1,923,217,496,836",
+			"position": "0,2,3,-1,-1,-1,-1,575,-1559,148,-940",
 			"replace":
 			{
 				"height": 62.0
@@ -1315,7 +1322,7 @@
 			"side_bar_visible": true,
 			"side_bar_width": 243.0,
 			"status_bar_visible": true,
-			"window_id": 26,
+			"window_id": 29,
 			"workspace_name": ""
 		}
 	],
