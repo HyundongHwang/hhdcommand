@@ -766,6 +766,18 @@
 			},
 			"buffers":
 			[
+				{
+					"contents": "Write-Host \"안녕하세요\" $env:USERNAME\"님\"\n\n\n\n$oldPath = Get-Content Env:\\Path\n\nSet-Item Env:\\Path \"\n    $oldPath;\n    c:\\Program Files (x86)\\Git\\bin\\;\n\"\n\nWrite-Host \"cat Env Path\"\ncat Env:\\Path\n\n\n\n$OutputEncoding = New-Object -TypeName System.Text.UTF8Encoding\nWrite-Host \"$OutputEncoding\"\n$OutputEncoding\n\n\n\n\n# $DebugPreference = \"continue\"\n\n\n\nWrite-Host \"Set-ExecutionPolicy Bypass -Scope Process -Force\"\nSet-ExecutionPolicy Bypass -Scope Process -Force\n\n\n\n\nWrite-Host \"Import-AzurePublishSettingsFile\"\nImport-AzurePublishSettingsFile ~\\*.publishsettings\n\n\n\n\n\n##############################################################################################\n# update custom profile.ps1, dlls ... \n##############################################################################################\n\nWrite-Host \"update custom profile.ps1, dlls ... \"\n\nif (Test-Path C:\\hhdcommand\\PsDev\\PsScripts\\profile.ps1)\n{\n    Write-Host \"profile.ps1 업데이트 ...\"\n    cp -Force C:\\hhdcommand\\PsDev\\PsScripts\\profile.ps1 $PSHOME\n}\nelse\n{\n    Write-Host \"profile.ps1 업데이트 스킵 ...\"\n}\n\nif (Test-Path \"C:\\hhdcommand\\PsDev\\HPsUtils\\bin\\Debug\\HPsUtils.dll\")\n{\n    Write-Host \"HPsUtils.dll 업데이트 ...\"\n\n    Try\n    {\n        cp -Force -Recurse C:\\hhdcommand\\PsDev\\HPsUtils\\bin\\Debug\\* $PSHOME\n    }\n    Catch\n    {\n        Write-Warning \"cp HPsUtils.dll 실패!!! ex : \"\n        Write-Warning $_.Exception\n    }\n\n    Add-Type -Path \"$PSHOME\\HPsUtils.dll\"\n    Import-Module \"$PSHOME\\HPsUtils.dll\"\n}\nelse\n{\n    Write-Host \"HPsUtils.dll 업데이트 스킵 ...\"\n}\n\n\n\n\n##############################################################################################\n# alias ... \n##############################################################################################\n\nWrite-Host \"alias ... \"\n\nSet-Alias vim \"c:\\hhdcommand\\vim74\\vim.exe\"\nSet-Alias sublime \"c:\\hhdcommand\\Sublime Text 2.0.2\\sublime.exe\"\nSet-Alias open \"C:\\Windows\\SysWOW64\\explorer.exe\"\nSet-Alias vs2013 \"C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\Common7\\IDE\\devenv.exe\"\nSet-Alias vs2015 \"C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\devenv.exe\"\nSet-Alias blend2013 \"C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\Common7\\IDE\\blend.exe\"\nSet-Alias blend2015 \"C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\blend.exe\"\nSet-Alias honeyview \"C:\\Program Files\\Honeyview\\Honeyview.exe\"\nSet-Alias sqlite3 \"c:\\hhdcommand\\sqlite\\sqlite3.exe\"\n\n\n\n\n##############################################################################################\n# simple functions ... \n##############################################################################################\nfunction adblogcatmono\n{\n    adb logcat -s mono-stdout:v\n}\n\nfunction lsforce\n{\n    Get-ChildItem -Force\n}\n\nfunction cdtemp\n{\n    cd c:\\temp\n}\n\nfunction cdproject\n{\n    cd c:\\project\n}\n\nfunction sublimeprofileps1\n{\n    sublime c:\\hhdcommand\\PsDev\\PsScripts\\profile.ps1\n}\n\nfunction catprofileps1\n{\n    cat c:\\hhdcommand\\PsDev\\PsScripts\\profile.ps1\n}\n\nfunction cd2($keyword)\n{\n    cd *$keyword*\n}\n\nfunction ps2()\n{\n    ps | sort WS -Descending | select Id, Name, @{l=\"WS(M)\"; e={[int]($_.WS / 1024 / 1024)}}, Path -First 10 | ft -AutoSize -Wrap\n}\n\nfunction gitgraph\n{\n    git log --pretty=format:\"%h %s - %an %ar\" --graph\n}\n\nfunction catlog($path)\n{\n    cat -Wait $path\n}\n\nfunction rmforce($path)\n{\n    rm -Recurse -Force $path\n}\n\nfunction vspsdev()\n{\n    Start-Process devenv.exe -Verb runAs -ArgumentList c:\\hhdcommand\\PsDev\\PsDev.sln\n}\n\nfunction azurecurrent()\n{\n    Write-Host \"Get-AzureSubscription\"\n    pause\n    Get-AzureSubscription\n\n\n\n    Write-Host \"Get-AzureWebsite\"\n    pause\n    Get-AzureWebsite\n\n\n\n    Write-Host \"Get-AzureSqlDatabaseServer\"\n    pause\n    Get-AzureSqlDatabaseServer\n\n    Write-Host \"Get-AzureSqlDatabaseServer | Get-AzureSqlDatabase\"\n    pause\n    Get-AzureSqlDatabaseServer | Get-AzureSqlDatabase\n\n\n\n    Write-Host \"Get-AzureStorageAccount\"\n    pause\n    Get-AzureStorageAccount\n\n    Write-Host \"Get-AzureStorageAccount | Get-AzureStorageContainer\"\n    pause\n    Get-AzureStorageAccount | Get-AzureStorageContainer\n\n    Write-Host \"Get-AzureStorageAccount | Get-AzureStorageContainer | Get-AzureStorageBlob\"\n    pause\n    Get-AzureStorageAccount | Get-AzureStorageContainer | Get-AzureStorageBlob\n}\n\n<#\n.SYNOPSIS\n    rm -Recurse -Force $path\n.PARAMETER path\n    파일, 디렉토리 경로\n.EXAMPLE\n    rmforce aaa\n#>\nfunction rmforce($path)\n{\n    rm -Recurse -Force $path\n}\n\n<#\n.SYNOPSIS\n    kill -Name *powershell*\n    파워쉘 관련 프로세스를 모두 죽여서 hpsutils.dll이 잘 배포되도록 한다.\n.EXAMPLE\n    killpowershell\n#>\nfunction killpowershell()\n{\n    kill -Name *powershell*\n}\n\n\n\n<#\n.SYNOPSIS\n.EXAMPLE\n    connectiotdevice -servername \"firstrp2\" -password \"password\"\n#>\nfunction connectiotdevice($servername, $password)\n{\n    Write-Host \"start winrm service ...\"\n    net start winrm\n\n    Write-Host \"add TrustedHosts ...\"\n    Set-Item WSMan:\\localhost\\Client\\TrustedHosts -Value $servername\n\n    $passwordEnc = ConvertTo-SecureString $password -AsPlainText -Force\n    $cred = New-Object System.Management.Automation.PSCredential(\"$servername\\administrator\", $passwordEnc)\n\n    Write-Host \"enter pssession ...\"\n    Enter-PSSession -ComputerName $servername -Credential $cred\n}\n\n\n\n<#\n.SYNOPSIS\n.EXAMPLE\n    connectiotdevicefirstrp2\n#>\nfunction connectiotdevicefirstrp2()\n{\n    connectiotdevice -servername \"firstrp2\" -password \"p@ssw0rd\"\n}\n\n\n\n<#\n.SYNOPSIS\n.EXAMPLE\n    connectiotdevicesecondrp2\n#>\nfunction connectiotdevicesecondrp2()\n{\n    connectiotdevice -servername \"secondrp2\" -password \"p@ssw0rd\"\n}\n\n\n\n<#\n.SYNOPSIS\n.EXAMPLE\n#>\nfunction mountiotdrivefirstrp2()\n{\n    Write-Host \"\n`$servername = `\"firstrp2`\"\n`$password = `\"password`\"\n`$passwordEnc = ConvertTo-SecureString `$password -AsPlainText -Force\n`$cred = New-Object System.Management.Automation.PSCredential(`\"`$servername\\administrator`\", `$passwordEnc)\nNew-PSDrive -Name iot -PSProvider FileSystem -Root \\\\`$servername\\c$ -Credential `$cred\n    \";\n}\n\n\n\n##############################################################################################\n# complex functions ... \n##############################################################################################\n\n<#\n.SYNOPSIS\n    mycomplexfunc 별거없다.\n.PARAMETER process\n    프로세스 객체\n.PARAMETER prefix\n    일반 문자열 객체\n.PARAMETER strArray\n    문자열 배열\n.EXAMPLE\n    PS C:\\temp> ps | where {$_.Name -eq \"chrome\"} | mycomplexfunc -prefix \"프레픽스\" -strArray @(\"일\", \"이\", \"삼\")\n    디버그: strArray.Length : 3\n    디버그: idx : 2\n    디버그: randValue : 삼\n\n    디버그: strArray.Length : 3\n    디버그: idx : 2\n    디버그: randValue : 삼\n    디버그: strArray.Length : 3\n    디버그: idx : 2\n    디버그: randValue : 삼\n    디버그: strArray.Length : 3\n    디버그: idx : 2\n    디버그: randValue : 삼\n    디버그: strArray.Length : 3\n    디버그: idx : 1\n    디버그: randValue : 이\n    디버그: strArray.Length : 3\n    디버그: idx : 1\n    디버그: randValue : 이\n    디버그: strArray.Length : 3\n    디버그: idx : 2\n    디버그: randValue : 삼\n    디버그: strArray.Length : 3\n    디버그: idx : 2\n    디버그: randValue : 삼\n    디버그: strArray.Length : 3\n    디버그: idx : 2\n    디버그: randValue : 삼\n    디버그: strArray.Length : 3\n    디버그: idx : 2\n    디버그: randValue : 삼\n    디버그: strArray.Length : 3\n    디버그: idx : 2\n    디버그: randValue : 삼\n    디버그: strArray.Length : 3\n    디버그: idx : 2\n    디버그: randValue : 삼\n    디버그: strArray.Length : 3\n    디버그: idx : 0\n    디버그: randValue : 일\n    prefix   ProcessName ProcessId randValue\n    ------   ----------- --------- ---------\n    프레픽스 chrome           8924 삼\n    프레픽스 chrome          12980 삼\n    프레픽스 chrome          13816 삼\n    프레픽스 chrome          14596 삼\n    프레픽스 chrome          16776 이\n    프레픽스 chrome          18068 이\n    프레픽스 chrome          18172 삼\n    프레픽스 chrome          18404 삼\n    프레픽스 chrome          20244 삼\n    프레픽스 chrome          20324 삼\n    프레픽스 chrome          21784 삼\n    프레픽스 chrome          22216 삼\n    프레픽스 chrome          22412 일\n#>\nfunction mycomplexfunc\n{\n    [CmdletBinding()]\n    param\n    (\n        [Parameter(Mandatory=$true, ValueFromPipeline=$true, ValueFromPipelinebyPropertyName=$true)]\n        [System.Diagnostics.Process]\n        $process,\n\n        [System.String]\n        $prefix,\n\n        [System.String[]]\n        $strArray\n    )\n    begin\n    {\n    }\n    process\n    {\n        $obj = New-Object -typename PSObject\n\n        $obj | Add-Member -MemberType NoteProperty -Name prefix -Value $prefix\n        $obj | Add-Member -MemberType NoteProperty -Name ProcessName -Value $process.Name\n        $obj | Add-Member -MemberType NoteProperty -Name ProcessId -Value $process.Id\n\n        Write-Host (\"strArray.Length : \" + $strArray.Length)\n\n        if ($strArray.Length -gt 0) \n        {\n            $rand = New-Object -TypeName System.Random\n            $idx = $rand.Next($strArray.Length)\n\n            Write-Host (\"idx : \" + $idx)\n\n            $randValue = $strArray[$idx]\n\n            Write-Host (\"randValue : \" + $randValue)\n\n            $obj | Add-Member -MemberType NoteProperty -Name randValue -Value $randValue\n        }\n\n        Write-Output $obj\n    }\n}",
+					"file": "/C/hhdcommand/PsDev/PsScripts/profile.ps1",
+					"file_size": 9629,
+					"file_write_time": 131098502699623240,
+					"settings":
+					{
+						"buffer_size": 8940,
+						"line_ending": "Windows",
+						"scratch": true
+					}
+				}
 			],
 			"build_system": "",
 			"command_palette":
@@ -1086,6 +1098,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"Write-Debug",
 					"NetworkKey",
 					"ResultCollection",
 					"background",
@@ -1215,6 +1228,7 @@
 				"regex": false,
 				"replace_history":
 				[
+					"Write-Host",
 					"-",
 					"function",
 					"KalbumDownloader.xap",
@@ -1238,8 +1252,178 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/C/hhdcommand/PsDev/PsScripts/profile.ps1",
+							"settings":
+							{
+								"buffer_size": 8940,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										896,
+										997
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"bh_regions":
+									[
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110.0
+									],
+									"gjslint_options":
+									[
+									],
+									"in_converting": true,
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"devel": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"origin_encoding": "EUC-KR",
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"revert_to_scratch": true,
+									"sublimelinter": "load-save",
+									"sublimelinter_delay": 2.0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": true,
+									"sublimelinter_gutter_marks_theme": "simple",
+									"sublimelinter_mark_style": "none",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 288.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
 					]
 				}
 			],
