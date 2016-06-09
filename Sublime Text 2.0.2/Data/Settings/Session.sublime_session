@@ -1,6 +1,7 @@
 {
 	"folder_history":
 	[
+		"/c/temp/mydb-backup",
 		"/C/temp/logs",
 		"/c/hhdcommand/PsDev/PsScripts",
 		"/C/hhdcommand/PsDev/PsScripts",
@@ -931,9 +932,9 @@
 			},
 			"file_history":
 			[
+				"/C/hhdcommand/PsDev/PsScripts/profile.ps1",
 				"/c/hhdcommand/PsScripts/profile.ps1",
 				"/C/project/MyEfTest/create-tables.sql",
-				"/C/hhdcommand/PsDev/PsScripts/profile.ps1",
 				"/C/temp/KakaoTalk_Longtxt_20160607_1723_59_612.txt",
 				"/C/temp/CreateTB_ASP/CreateTB_ASP.sql",
 				"/C/hhdcommand/.gitignore",
@@ -1086,6 +1087,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"Write-Debug",
 					"NetworkKey",
 					"ResultCollection",
 					"background",
@@ -1215,6 +1217,7 @@
 				"regex": false,
 				"replace_history":
 				[
+					"Write-Host",
 					"-",
 					"function",
 					"KalbumDownloader.xap",
@@ -1235,6 +1238,12 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"folders":
+			[
+				{
+					"path": "/c/temp/mydb-backup"
+				}
+			],
 			"groups":
 			[
 				{
@@ -1282,7 +1291,7 @@
 			{
 				"height": 326.0
 			},
-			"position": "0,2,3,-1,-1,-1,-1,505,78,78,561",
+			"position": "0,2,3,-137,-1,-1,-1,873,283,446,766",
 			"replace":
 			{
 				"height": 62.0
