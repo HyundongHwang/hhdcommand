@@ -1,8 +1,12 @@
 {
 	"folder_history":
 	[
+		"/C/project/160905_Documents.wiki",
+		"/C/hhdcommand/Sublime Text 2.0.2",
+		"/C/project/Documents.wiki",
+		"/C/temp"
 	],
-	"last_window_id": 1,
+	"last_window_id": 5,
 	"settings":
 	{
 		"new_window_height": 480.0,
@@ -13,6 +17,10 @@
 				"selected_items":
 				[
 					[
+						"get",
+						"Get-Content"
+					],
+					[
 						"tru",
 						"trim_automatic_white_space"
 					]
@@ -21,9 +29,93 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 104.0,
+				"height": 242.0,
 				"selected_items":
 				[
+					[
+						"pa in",
+						"Package Control: Install Package"
+					],
+					[
+						"in pa",
+						"Package Control: Install Package"
+					],
+					[
+						"pre user",
+						"Preferences: Settings - User"
+					],
+					[
+						"setting ",
+						"Preferences: Settings - Default"
+					],
+					[
+						"preference user",
+						"Preferences: Settings - User"
+					],
+					[
+						"key",
+						"Preferences: Key Bindings - User"
+					],
+					[
+						"markdo",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"md ",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"key ",
+						"Preferences: Key Bindings - User"
+					],
+					[
+						"hex",
+						"Hex Viewer: Toggle Hex View"
+					],
+					[
+						"to",
+						"Hex Viewer: Toggle Hex View"
+					],
+					[
+						"toggle",
+						"Hex Viewer: Toggle Hex View"
+					],
+					[
+						"hex viewer",
+						"Hex Viewer: Toggle Hex View"
+					],
+					[
+						"hex ",
+						"Set Syntax: Hex"
+					],
+					[
+						"pa in ",
+						"Package Control: Install Package"
+					],
+					[
+						"pretty ",
+						"Pretty JSON: Format (Pretty Print) JSON"
+					],
+					[
+						"pretty  json",
+						"Preferences: Pretty JSON Settings - Default"
+					],
+					[
+						"re pa",
+						"Package Control: Remove Package"
+					],
+					[
+						"rem pa",
+						"Package Control: Remove Package"
+					],
+					[
+						"key bn",
+						"Preferences: Key Bindings - Default"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
 					[
 						"install ",
 						"Package Control: Install Package"
@@ -46,19 +138,39 @@
 			},
 			"file_history":
 			[
-				"/C/temp/Sublime Text 2.0.2 x64/Microsoft.VC90.CRT.manifest",
+				"/C/hhdcommand/PsDev/PsScripts/profile.ps1",
+				"/C/project/160905_Documents.wiki/위젯 개발 설계.md",
+				"/C/project/160905_Documents.wiki/미래기술tf-신규입사자-가이드.md",
 				"/C/hhdcommand/Sublime Text 2.0.2/Data/Packages/User/Preferences.sublime-settings",
-				"/C/hhdcommand/Sublime Text 2.0.2/Data/Packages/Default/Preferences.sublime-settings"
+				"/C/hhdcommand/Sublime Text 2.0.2/Data/Packages/Default/Preferences.sublime-settings",
+				"/C/hhdcommand/Sublime Text 2.0.2/Data/Packages/User/Default (Windows).sublime-keymap",
+				"/C/project/160905_Documents.wiki/WPF 어플리케이션 개발 가이드.md",
+				"/C/project/160905_Documents.wiki/WPF 실무 어플리케이션 코드 소개.md",
+				"/C/project/160905_Documents.wiki/Development process.md",
+				"/C/project/160905_Documents.wiki/WPF 어플리케이션 개발 가이드",
+				"/c/project/160905_Documents.wiki\"",
+				"/C/project/160905_Documents.wiki/home.md",
+				"/C/project/Documents.wiki/home.md",
+				"/C/project/Documents.wiki/미래기술tf-신규입사자-가이드.md",
+				"/C/project/Documents.wiki/abc",
+				"/C/hhdcommand/Sublime Text 2.0.2/Data/Packages/Pretty JSON/Pretty JSON.sublime-settings",
+				"/C/hhdcommand/Sublime Text 2.0.2/Data/Packages/Default/Default (Windows).sublime-keymap",
+				"/C/hhdcommand/Sublime Text 2.0.2/Data/Packages/SmartMarkdown/SmartMarkdown.sublime-settings",
+				"/C/hhdcommand/Sublime Text 2.0.2/Data/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+				"/C/hhdcommand/Sublime Text 2.0.2/Data/Packages/User/Markdown (Standard).sublime-settings",
+				"/C/project/Documents.wiki/테스트페이지.md",
+				"/C/temp/Sublime Text 2.0.2 x64/Microsoft.VC90.CRT.manifest"
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 34.0
 			},
 			"find_in_files":
 			{
 				"height": 0.0,
 				"where_history":
 				[
+					""
 				]
 			},
 			"find_state":
@@ -66,6 +178,13 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"tab",
+					"----\n",
+					"attribute",
+					")\n",
+					")",
+					"330d",
+					"}"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -86,7 +205,7 @@
 			},
 			"input":
 			{
-				"height": 0.0
+				"height": 33.0
 			},
 			"layout":
 			{
@@ -149,6 +268,10 @@
 				"selected_items":
 				[
 					[
+						"get",
+						"Get-Content"
+					],
+					[
 						"tru",
 						"trim_automatic_white_space"
 					]
@@ -157,9 +280,93 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 104.0,
+				"height": 242.0,
 				"selected_items":
 				[
+					[
+						"pa in",
+						"Package Control: Install Package"
+					],
+					[
+						"in pa",
+						"Package Control: Install Package"
+					],
+					[
+						"pre user",
+						"Preferences: Settings - User"
+					],
+					[
+						"setting ",
+						"Preferences: Settings - Default"
+					],
+					[
+						"preference user",
+						"Preferences: Settings - User"
+					],
+					[
+						"key",
+						"Preferences: Key Bindings - User"
+					],
+					[
+						"markdo",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"md ",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"key ",
+						"Preferences: Key Bindings - User"
+					],
+					[
+						"hex",
+						"Hex Viewer: Toggle Hex View"
+					],
+					[
+						"to",
+						"Hex Viewer: Toggle Hex View"
+					],
+					[
+						"toggle",
+						"Hex Viewer: Toggle Hex View"
+					],
+					[
+						"hex viewer",
+						"Hex Viewer: Toggle Hex View"
+					],
+					[
+						"hex ",
+						"Set Syntax: Hex"
+					],
+					[
+						"pa in ",
+						"Package Control: Install Package"
+					],
+					[
+						"pretty ",
+						"Pretty JSON: Format (Pretty Print) JSON"
+					],
+					[
+						"pretty  json",
+						"Preferences: Pretty JSON Settings - Default"
+					],
+					[
+						"re pa",
+						"Package Control: Remove Package"
+					],
+					[
+						"rem pa",
+						"Package Control: Remove Package"
+					],
+					[
+						"key bn",
+						"Preferences: Key Bindings - Default"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
 					[
 						"install ",
 						"Package Control: Install Package"
@@ -182,19 +389,39 @@
 			},
 			"file_history":
 			[
-				"/C/temp/Sublime Text 2.0.2 x64/Microsoft.VC90.CRT.manifest",
+				"/C/hhdcommand/PsDev/PsScripts/profile.ps1",
+				"/C/project/160905_Documents.wiki/위젯 개발 설계.md",
+				"/C/project/160905_Documents.wiki/미래기술tf-신규입사자-가이드.md",
 				"/C/hhdcommand/Sublime Text 2.0.2/Data/Packages/User/Preferences.sublime-settings",
-				"/C/hhdcommand/Sublime Text 2.0.2/Data/Packages/Default/Preferences.sublime-settings"
+				"/C/hhdcommand/Sublime Text 2.0.2/Data/Packages/Default/Preferences.sublime-settings",
+				"/C/hhdcommand/Sublime Text 2.0.2/Data/Packages/User/Default (Windows).sublime-keymap",
+				"/C/project/160905_Documents.wiki/WPF 어플리케이션 개발 가이드.md",
+				"/C/project/160905_Documents.wiki/WPF 실무 어플리케이션 코드 소개.md",
+				"/C/project/160905_Documents.wiki/Development process.md",
+				"/C/project/160905_Documents.wiki/WPF 어플리케이션 개발 가이드",
+				"/c/project/160905_Documents.wiki\"",
+				"/C/project/160905_Documents.wiki/home.md",
+				"/C/project/Documents.wiki/home.md",
+				"/C/project/Documents.wiki/미래기술tf-신규입사자-가이드.md",
+				"/C/project/Documents.wiki/abc",
+				"/C/hhdcommand/Sublime Text 2.0.2/Data/Packages/Pretty JSON/Pretty JSON.sublime-settings",
+				"/C/hhdcommand/Sublime Text 2.0.2/Data/Packages/Default/Default (Windows).sublime-keymap",
+				"/C/hhdcommand/Sublime Text 2.0.2/Data/Packages/SmartMarkdown/SmartMarkdown.sublime-settings",
+				"/C/hhdcommand/Sublime Text 2.0.2/Data/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+				"/C/hhdcommand/Sublime Text 2.0.2/Data/Packages/User/Markdown (Standard).sublime-settings",
+				"/C/project/Documents.wiki/테스트페이지.md",
+				"/C/temp/Sublime Text 2.0.2 x64/Microsoft.VC90.CRT.manifest"
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 34.0
 			},
 			"find_in_files":
 			{
 				"height": 0.0,
 				"where_history":
 				[
+					""
 				]
 			},
 			"find_state":
@@ -202,6 +429,13 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"tab",
+					"----\n",
+					"attribute",
+					")\n",
+					")",
+					"330d",
+					"}"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -222,7 +456,7 @@
 			},
 			"input":
 			{
-				"height": 0.0
+				"height": 33.0
 			},
 			"layout":
 			{
@@ -247,7 +481,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "0,2,3,-1,-1,-1,-1,877,338,338,994",
+			"position": "0,2,3,-1,-1,-1,-1,939,432,400,1088",
 			"replace":
 			{
 				"height": 0.0
@@ -275,7 +509,7 @@
 			"side_bar_visible": true,
 			"side_bar_width": 150.0,
 			"status_bar_visible": true,
-			"window_id": 1
+			"window_id": 4
 		}
 	],
 	"workspaces":
