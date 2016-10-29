@@ -1,5 +1,0 @@
-﻿# {date} 제목
-
-@(황현동 노트북)[.net, c#, study, blog]
-
-[toc]

@@ -1,21 +1,57 @@
 {
 	"folder_history":
 	[
-		"/C/project/160905_Documents.wiki",
+		"/C/temp/swaggerapi",
+		"/C/project/130101_hhdvscodesnippets/csharp",
+		"/C/project/161010_CoconutClient/CoconutHttpApi",
+		"/C/project/161010_CoconutClient/IO.Swagger",
+		"/C/project/161010_CoconutClient/installer",
+		"/C/project/161010_CoconutClient/BuildDeploy",
+		"/C/temp/Telerik_UI_for_WPF_2016_3_1024_Demos",
+		"/C/temp/csharp-client-generated-net40/csharp-client/src",
+		"/C/temp/posh-hello",
+		"/C/project/160905_NntDocuments.wiki",
+		"/C/project/161010_CoconutClient/installer/NSIS/Unicode/Examples/Modern UI",
+		"/C/project/161010_CoconutClient",
+		"/C/project/161011_libzmq/tests",
+		"/C/project/161011_libzmq",
+		"/C/project/160101_NineDragon",
 		"/C/hhdcommand/Sublime Text 2.0.2",
+		"/C/project/101101_SilverlightCpp",
+		"/C/project/CoconutClient",
+		"/C/project/160905_Documents.wiki",
+		"/C/project/130801_seychelle",
+		"/C/project/151201_KalbumDownloader",
+		"/C/project/150501_korder-agent-win32",
 		"/C/project/Documents.wiki",
 		"/C/temp"
 	],
-	"last_window_id": 5,
+	"last_window_id": 43,
 	"settings":
 	{
-		"new_window_height": 480.0,
+		"new_window_height": 483.0,
 		"new_window_settings":
 		{
 			"auto_complete":
 			{
 				"selected_items":
 				[
+					[
+						"ftp",
+						"FTP_DIR"
+					],
+					[
+						"ft",
+						"FTP_ID"
+					],
+					[
+						"hash",
+						"hashListJson"
+					],
+					[
+						"loca",
+						"localFileList"
+					],
 					[
 						"get",
 						"Get-Content"
@@ -29,9 +65,41 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 242.0,
+				"height": 173.0,
 				"selected_items":
 				[
+					[
+						"close ",
+						"File: Close All"
+					],
+					[
+						"xml",
+						"Set Syntax: XML"
+					],
+					[
+						"shell",
+						"Set Syntax: Shell Script (Bash)"
+					],
+					[
+						"json",
+						"Pretty JSON: Format and Sort JSON"
+					],
+					[
+						"pretty",
+						"Pretty JSON: Format (Pretty Print) JSON"
+					],
+					[
+						"pre user",
+						"Preferences: Settings - User"
+					],
+					[
+						"pre de",
+						"Preferences: Settings - Default"
+					],
+					[
+						"terma",
+						"Terminal: Open"
+					],
 					[
 						"pa in",
 						"Package Control: Install Package"
@@ -39,10 +107,6 @@
 					[
 						"in pa",
 						"Package Control: Install Package"
-					],
-					[
-						"pre user",
-						"Preferences: Settings - User"
 					],
 					[
 						"setting ",
@@ -121,7 +185,7 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 400.0
+				"width": 480.0
 			},
 			"console":
 			{
@@ -138,8 +202,36 @@
 			},
 			"file_history":
 			[
+				"/C/Program Files/WindowsPowerShell/Modules/posh-git/0.6.1.20160330/profile.example.ps1",
+				"/C/project/161010_CoconutClient/BuildDeploy/_build-deploy-with-ps-winscp.ps1",
 				"/C/hhdcommand/PsDev/PsScripts/profile.ps1",
+				"/C/Program",
+				"/C/Program Files/WindowsPowerShell/Modules/WinSCP/5.9.2.5/Files/WindowsPowerShell/Modules/WinSCP/5.9.2.5/en-US/WinSCP-Help.xml",
+				"/C/project/161010_CoconutClient/CoconutHttpApi/generate-swagger-proxy-code.ps1",
+				"/C/project/161010_CoconutClient/BuildDeploy/build-deploy.ps1",
+				"/C/project/161010_CoconutClient/installer/scripts/Installer.nsi",
+				"/C/temp/log.txt",
+				"/C/project/MyWpfApp/MyWpfApp/MyWpfApp.csproj",
+				"/C/project/MyWpfApp2/MyWpfApp2/MyWpfApp2.csproj",
+				"/C/project/MyWpfApp/MyWpfApp/bin/Debug/MyWpfApp.exe.config",
+				"/C/project/MyWpfApp2/MyWpfApp2/bin/Debug/MyWpfApp2.vshost.exe.manifest",
+				"/C/temp/clip_manoffin_stamp.html",
+				"/C/temp/@{FullName=C",
+				"/C/temp/swaggerapi/src/IO.Swagger/Api/StoreApi.cs",
+				"/C/project/161010_CoconutClient/BuildDeploy/deploy/v/NntBaseLib.dll_161027.log",
+				"/C/project/161010_CoconutClient/BuildDeploy/deploy/v/Updater/NntBaseLib.dll_161027.log",
+				"/C/project/161010_CoconutClient/bin/Coconut/Debug/NntBaseLib.dll_161027.log",
+				"/C/project/160905_NntDocuments.wiki/161024 코드리뷰 양창열 from 황현동 13ca84e.md",
+				"/C/project/161010_CoconutClient/BuildDeploy/*ps1",
+				"/C/inetpub/wwwroot/iisstart.htm",
+				"/C/inetpub/wwwroot/coconut/v/hashList.json",
+				"/C/project/161010_CoconutClient/.gitignore",
+				"/C/project/160905_Documents.wiki/coconut client 에 zmq 적용.md",
 				"/C/project/160905_Documents.wiki/위젯 개발 설계.md",
+				"/C/project/160905_Documents.wiki/신결제TFT 회의록/161011 회의록.md",
+				"/C/project/160905_Documents.wiki/161011 회의록.md",
+				"/C/temp/HanEnKeyToShiftSpace/HanEnKeyToShiftSpace.ps1",
+				"/C/temp/register-context-menu-sublime.reg",
 				"/C/project/160905_Documents.wiki/미래기술tf-신규입사자-가이드.md",
 				"/C/hhdcommand/Sublime Text 2.0.2/Data/Packages/User/Preferences.sublime-settings",
 				"/C/hhdcommand/Sublime Text 2.0.2/Data/Packages/Default/Preferences.sublime-settings",
@@ -178,6 +270,17 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"sublime",
+					"git",
+					"hhdcd",
+					"asset",
+					"\n        ",
+					"Setter Property=\"HorizontalAlignment\"",
+					"exit",
+					"close",
+					"exit",
+					"reme",
+					"exit",
 					"tab",
 					"----\n",
 					"attribute",
@@ -240,6 +343,10 @@
 				"height": 0.0,
 				"selected_items":
 				[
+					[
+						"test",
+						"hhdtestmethod.snippet"
+					]
 				],
 				"width": 0.0
 			},
@@ -255,7 +362,7 @@
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 229.0,
 			"status_bar_visible": true
 		},
 		"new_window_width": 640.0
@@ -268,6 +375,22 @@
 				"selected_items":
 				[
 					[
+						"ftp",
+						"FTP_DIR"
+					],
+					[
+						"ft",
+						"FTP_ID"
+					],
+					[
+						"hash",
+						"hashListJson"
+					],
+					[
+						"loca",
+						"localFileList"
+					],
+					[
 						"get",
 						"Get-Content"
 					],
@@ -280,9 +403,41 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 242.0,
+				"height": 173.0,
 				"selected_items":
 				[
+					[
+						"close ",
+						"File: Close All"
+					],
+					[
+						"xml",
+						"Set Syntax: XML"
+					],
+					[
+						"shell",
+						"Set Syntax: Shell Script (Bash)"
+					],
+					[
+						"json",
+						"Pretty JSON: Format and Sort JSON"
+					],
+					[
+						"pretty",
+						"Pretty JSON: Format (Pretty Print) JSON"
+					],
+					[
+						"pre user",
+						"Preferences: Settings - User"
+					],
+					[
+						"pre de",
+						"Preferences: Settings - Default"
+					],
+					[
+						"terma",
+						"Terminal: Open"
+					],
 					[
 						"pa in",
 						"Package Control: Install Package"
@@ -290,10 +445,6 @@
 					[
 						"in pa",
 						"Package Control: Install Package"
-					],
-					[
-						"pre user",
-						"Preferences: Settings - User"
 					],
 					[
 						"setting ",
@@ -372,7 +523,7 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 400.0
+				"width": 480.0
 			},
 			"console":
 			{
@@ -389,8 +540,36 @@
 			},
 			"file_history":
 			[
+				"/C/Program Files/WindowsPowerShell/Modules/posh-git/0.6.1.20160330/profile.example.ps1",
+				"/C/project/161010_CoconutClient/BuildDeploy/_build-deploy-with-ps-winscp.ps1",
 				"/C/hhdcommand/PsDev/PsScripts/profile.ps1",
+				"/C/Program",
+				"/C/Program Files/WindowsPowerShell/Modules/WinSCP/5.9.2.5/Files/WindowsPowerShell/Modules/WinSCP/5.9.2.5/en-US/WinSCP-Help.xml",
+				"/C/project/161010_CoconutClient/CoconutHttpApi/generate-swagger-proxy-code.ps1",
+				"/C/project/161010_CoconutClient/BuildDeploy/build-deploy.ps1",
+				"/C/project/161010_CoconutClient/installer/scripts/Installer.nsi",
+				"/C/temp/log.txt",
+				"/C/project/MyWpfApp/MyWpfApp/MyWpfApp.csproj",
+				"/C/project/MyWpfApp2/MyWpfApp2/MyWpfApp2.csproj",
+				"/C/project/MyWpfApp/MyWpfApp/bin/Debug/MyWpfApp.exe.config",
+				"/C/project/MyWpfApp2/MyWpfApp2/bin/Debug/MyWpfApp2.vshost.exe.manifest",
+				"/C/temp/clip_manoffin_stamp.html",
+				"/C/temp/@{FullName=C",
+				"/C/temp/swaggerapi/src/IO.Swagger/Api/StoreApi.cs",
+				"/C/project/161010_CoconutClient/BuildDeploy/deploy/v/NntBaseLib.dll_161027.log",
+				"/C/project/161010_CoconutClient/BuildDeploy/deploy/v/Updater/NntBaseLib.dll_161027.log",
+				"/C/project/161010_CoconutClient/bin/Coconut/Debug/NntBaseLib.dll_161027.log",
+				"/C/project/160905_NntDocuments.wiki/161024 코드리뷰 양창열 from 황현동 13ca84e.md",
+				"/C/project/161010_CoconutClient/BuildDeploy/*ps1",
+				"/C/inetpub/wwwroot/iisstart.htm",
+				"/C/inetpub/wwwroot/coconut/v/hashList.json",
+				"/C/project/161010_CoconutClient/.gitignore",
+				"/C/project/160905_Documents.wiki/coconut client 에 zmq 적용.md",
 				"/C/project/160905_Documents.wiki/위젯 개발 설계.md",
+				"/C/project/160905_Documents.wiki/신결제TFT 회의록/161011 회의록.md",
+				"/C/project/160905_Documents.wiki/161011 회의록.md",
+				"/C/temp/HanEnKeyToShiftSpace/HanEnKeyToShiftSpace.ps1",
+				"/C/temp/register-context-menu-sublime.reg",
 				"/C/project/160905_Documents.wiki/미래기술tf-신규입사자-가이드.md",
 				"/C/hhdcommand/Sublime Text 2.0.2/Data/Packages/User/Preferences.sublime-settings",
 				"/C/hhdcommand/Sublime Text 2.0.2/Data/Packages/Default/Preferences.sublime-settings",
@@ -429,6 +608,17 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"sublime",
+					"git",
+					"hhdcd",
+					"asset",
+					"\n        ",
+					"Setter Property=\"HorizontalAlignment\"",
+					"exit",
+					"close",
+					"exit",
+					"reme",
+					"exit",
 					"tab",
 					"----\n",
 					"attribute",
@@ -481,7 +671,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "0,2,3,-1,-1,-1,-1,939,432,400,1088",
+			"position": "0,2,3,-32096,-32000,-1,-1,630,92,91,748",
 			"replace":
 			{
 				"height": 0.0
@@ -492,6 +682,10 @@
 				"height": 0.0,
 				"selected_items":
 				[
+					[
+						"test",
+						"hhdtestmethod.snippet"
+					]
 				],
 				"width": 0.0
 			},
@@ -507,9 +701,9 @@
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 229.0,
 			"status_bar_visible": true,
-			"window_id": 4
+			"window_id": 43
 		}
 	],
 	"workspaces":
