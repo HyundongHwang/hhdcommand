@@ -1,0 +1,568 @@
+﻿<html lang="en-us">
+
+<head>
+    <title>AMCap - Read Me</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Noël Danjou">
+    <meta name="description" content="AMCap readme file">
+    <style type="text/css">
+        body {
+            font-family: "Segoe UI", Tahoma, Verdana, Arial, Sans-Serif;
+            font-size: 12pt;
+            margin: 30px 30px;
+        }
+        h1 {
+            font-size: 16pt;
+        }
+        h2 {
+            font-size: 14pt;
+            color: #0072BC;
+            border-top: solid 1px #808080;
+            padding-top: 10px; 
+        }
+        h3 {
+            font-size: 12pt;
+            margin-top: 20px;
+            margin-left: 0px;
+        }
+        div.h2content {
+            margin-left: 15px;
+            margin-bottom: 35px;
+        }
+        div.h3content {
+            margin-left: 0px;
+        }
+        li {
+            padding-bottom: 8px;
+        }
+        table.TOC {
+            border-collapse: collapse; 
+            border-spacing: 4px;
+            width: 50%;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+        table.TOC tr th {
+            font-size: 12pt;
+            font-weight: 600;
+            text-align: left;
+            padding: 2px 2px 10px 2px;
+        }
+        table.TOC tr td {
+            padding: 2px 2px 2px 10px;
+        }
+        .link {
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>AMCap</h1>
+    Version 9.22 (December 2014)<br>
+    © 2004-2014, Noël DANJOU<br>
+    All rights reserved.
+    <table class="TOC">
+        <tr>
+            <th>Table of Contents</th>
+        </tr>
+        <tr>
+            <td>
+                <a href="#Welcome">Welcome</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#History">History</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#Download">Latest Version</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#Redistribution">Redistribution</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#Contact">Contact Details</a>
+            </td>
+        </tr>
+    </table>
+    
+    <h2><a id="Welcome" />Welcome</h2>
+    <div class="h2content">
+        <p>
+            <strong>AMCap</strong> is a still and video capture application with advanced preview 
+            and recording features. It is a desktop application designed to be used on computers 
+            that run Windows XP or later. Most <span class="def">Video-for-Windows</span> and
+            <span class="def">DirectShow</span>-compatible devices are supported whether they 
+            are cheap webcams or advanced video capture cards.
+        </p>
+        <p>
+            This version is a whole new application with many improved and new features including:
+        </p>
+        <ul>
+            <li>Preview and recording from DV sources</li>
+            <li>MPEG-2 preview and recording enhancements</li>
+            <li>Optional real-time compression (using installed compressors) while recording video</li>
+            <li>Setting persistence between sessions (e.g. color space, output size, video standard, etc.)</li>
+            <li>Improved analog tuner support for both TV and radio broadcasting</li>
+            <li>Still capture by pressing a key or possibly an hardware trigger</li>
+            <li>Periodic snapshots for automatic still capture</li>
+            <li>Configurable crosshair and on-screen display (OSD)</li>
+            <li>Experimental Text Enhancer (especially for individuals with low vision)</li>
+            <li>Volume control</li>
+            <li>Full screen preview with an optional AppBar (for a touch-friendly experience)</li>
+            <li>Selectable video renderer; the Video Renderer, the Video Mixing Renderers (7 and 9) and
+                the Enhanced Video Renderer are supported</li>
+            <li>Hardware video deinterlacing</li>
+            <li>Video aspect ratio and digital zoom control (preview only)</li>
+            <li>Video rotation (preview only)</li>
+            <li>Still or video overlay for customization or template purposes (preview only)</li>
+            <li>Hideable caption and bars to leave only the preview in windowed mode</li>
+            <li>Application can optionally remain always on top</li>
+        </ul>
+        The registered version also includes stillcap.exe, a console application that allows
+        to easily take snapshots from a script, an application, a command prompt,
+        the task scheduler, etc.
+    </div>
+    
+    <h2><a id="History" />History</h2>
+    <div class="h2content">
+        <h3>December 24, 2014 - Version 9.22 (Build 260.3)</h3>
+        <div class="h3content">
+            <ul>
+                <li>adds <strong>Enable time-stamped preview samples</strong> option as a possible
+                workaround to some timestamp-related errors (e.g. 0x80040228 or 0x80040249 error codes).</li>
+                <li>adds <strong>Enable trigger bistable mode</strong> option which allows the hardware
+                trigger to be used to capture a still and pause or switch back to live preview.</li>
+                <li>adds <strong>Automatically select a device upon connection</strong> option for AutoPlay support (mostly for DV devices).</li>
+                <li>adds <strong>Rotate</strong> option to rotate preview 90° clockwise or counterclockwise.</li>
+                <li>adds experimental <strong>Text Enhancer</strong> option.</li>
+                <li>adds toggleable AppBar with the main controls in full screen mode.</li>
+                <li>adds support for Enhanced Video Renderer, removes outdated renderers.</li>
+                <li>improves the help file.</li>
+                <li>improves digital zoom control.</li>
+                <li>improves overlay control.</li>
+                <li>improves crosshair support and allows crosshair positioning.</li>
+                <li>improves volume control.</li>
+                <li>disables screen blanking while running.</li>
+                <li>includes an updated stillcap.exe version.</li>
+                <li>many other fixes and improvements.</li>
+            </ul>
+        </div>
+        <h3>
+            August 22, 2012 - Version 9.21 (Build 156.3)</h3>
+        <div class="h3content">
+            <ul>
+                <li>maintenance build.</li>
+                <li>improves Windows 7 compatibility.</li>
+            </ul>
+        </div>
+        <h3>
+            June 24, 2008 - Version 9.20 (Build 133.2)</h3>
+        <div class="h3content">
+            <ul>
+                <li>adds an option to render the audio stream to the overlay feature.</li>
+                <li>transparent overlay movies can now play in a loop.</li>
+                <li>adds Color Space to Still Capture Pin properties.</li>
+                <li>adds new menu organization.</li>
+                <li>improves multi-monitor support.</li>
+            </ul>
+        </div>
+        <h3>
+            June 17, 2008 - Version 9.20 (Build 132.2)</h3>
+        <div class="h3content">
+            <ul>
+                <li>UNICODE only version.</li>
+                <li>Delayed snap feature fully rewritten and enhanced.</li>
+                <li>possibly supports more video capture devices.</li>
+                <li>removes UAC prompt in Vista.</li>
+                <li>fixes: STI registration was creating duplicate incomplete Registry keys. (use sticlean.exe
+                    to remove all invalid keys from the Registry).</li>
+                <li>fixes: OSD color changes were not applied.</li>
+                <li>fixes: TV programs with blank names were not loaded.</li>
+                <li>fixes copy of still images to the clipboard.</li>
+                <li>adds YUV mode if deinterlacing is available.</li>
+                <li>adds overlay feature to put a logo on-screen, to use a picture as comparator, etc.</li>
+                <li>adds support for additional video renderers (including custom video renderer).</li>
+                <li>adds the /vdevice parameter to override the video capture source specified in the
+                    .ini file.</li>
+                <li>adds AutoPlay registration to installation so that AMCap is listed when a video
+                    capture source is plugged in.</li>
+                <li>adds "Maintain Aspect Ratio" Window menu option. If this option is cleared the window
+                    can be freely resized to any aspect ratio otherwise aspect ratio is locked.</li>
+            </ul>
+        </div>
+        <h3>
+            December 4, 2006 - Version 9.11 (Build 109.4)</h3>
+        <div class="h3content">
+            <ul>
+                <li>adds "Remember camera controls" option to save and to restore camera information
+                    like pan, tilt, zoom, exposure, etc.</li>
+                <li>adds TV programs management (when an analog TV tuner is available).</li>
+                <li>fixes an issue that could lead to invalid values being displayed in some error messages.</li>
+                <li>adds a manifest for Windows Vista's UAC support.</li>
+                <li>adds a digital signature to the executable.</li>
+                <li>adds "Still Capture Pin..." option to configure high resolution if a Still pin is
+                    available.</li>
+                <li>adds volume control and bargraph (VMR9 required).</li>
+                <li>adds simultaneous MPEG-2 preview and capture.</li>
+                <li>adds support for Type-1 and Type-2 DV capture.</li>
+                <li>adds crosshair option due to numerous requests.</li>
+                <li>fixes a bug that could prevent compressor property pages from showing in Setup >
+                    Compression tab.</li>
+                <li>adds support for some media and remote control keys.</li>
+                <li>fixes menu bar on/off option always resizing the window to default size.</li>
+                <li>fixes an issue that prevented the preview window to be shrinked to a size smaller
+                    than the default video resolution.</li>
+                <li>fixes a possible crash when a still capture is requested and GDI+ is not installed.</li>
+                <li>improves error reporting, you should get less "(error message unavailable)".</li>
+                <li>improves still capture, requires less configuration and possibly better performances.</li>
+                <li>improves overall MPEG-2 support, more tuners or capture cards should be supported.</li>
+                <li>improves MPEG-2 capture so that no external dump filter is required.</li>
+                <li>improves backward compatibility for capture sources with a video port.</li>
+                <li>the cursor is now automatically hidden in fullscreen mode.</li>
+            </ul>
+        </div>
+        <h3>
+            June 21, 2006 - Version 9.10 (Build 88.3)</h3>
+        <div class="h3content">
+            <ul>
+                <li>fixes TV channel selection not working.</li>
+                <li>improves overall TV tuner management and support.</li>
+                <li>improves DV camcorder support.</li>
+                <li>improves capture file management, you're no more required to preallocate a capture
+                    file anymore.</li>
+                <li>adds new Setup with tabs (Capture > Setup... menu). Setup now gives access to some
+                    options that were only accessible from the Registry.</li>
+                <li>adds option to change OSD color.</li>
+                <li>adds TV Channel management.</li>
+                <li>adds TV audio menu.</li>
+                <li>adds audio input and crossbar audio input menus.</li>
+                <li>adds Synchro Start to start/stop DV camcorder playback at the same time as the capture
+                    in one click.</li>
+                <li>adds support for AVI compression and CODEC selection (experimental) (see Capture
+                    > Setup... > Compression tab).</li>
+                <li>adds a new help file.</li>
+                <li>fixes many bugs.</li>
+            </ul>
+        </div>
+        <h3>
+            March 2, 2006 - Version 9.08 (Build 75.3)</h3>
+        <div class="h3content">
+            <ul>
+                <li>adds an installer for easy installation and removal.</li>
+            </ul>
+        </div>
+        <h3>
+            February 15, 2006 - Version 9.08 (Build 75.3)</h3>
+        <div class="h3content">
+            <ul>
+                <li>adds a new option in Capture > Still menu to always save the still captures to the
+                    same file. Every capture will overwrite the same file instead of creating a new
+                    timestamped file.</li>
+                <li>adds a new "Auto Switch Inputs" option in Options > Video Input menu. If the video
+                    device has more than 1 input, AMCap will automatically switch from one input to
+                    the next one every 10 seconds. </li>
+            </ul>
+        </div>
+        <h3>
+            January 4, 2006 - Version 9.08 (Build 70.3)</h3>
+        <div class="h3content">
+            <ul>
+                <li>fixes: the window had a wrong aspect ratio after being minimized and then restored.</li>
+            </ul>
+        </div>
+        <h3>
+            December 13, 2005 - Version 9.08 (Build 68.2)</h3>
+        <div class="h3content">
+            <ul>
+                <li>fixes the settings were not saved in some exit conditions.</li>
+                <li>sets both video capture and preview resolutions to the same size at startup if both
+                    are available. Previously only capture resolution was restored.</li>
+                <li>implements Demo version. </li>
+            </ul>
+        </div>
+        <h3>
+            November 17, 2005 - Version 9.08 (Build 65.4)</h3>
+        <div class="h3content">
+            <ul>
+                <li>enhanced aspect ratio handling to avoid picture distorsion after resizing.</li>
+                <li>adds Options > Set Priority menu to boost the application priority in the multithreading
+                    scheduler and to possibly get better performances. </li>
+            </ul>
+        </div>
+        <h3>
+            November 3, 2005 - Version 9.08 (Build 63.4)</h3>
+        <div class="h3content">
+            <ul>
+                <li>reactivated the system menu from the taskbar button when the caption and the menubar
+                    are hidden in the application.</li>
+                <li>adds on-screen display of TV channel (VMR9 required).</li>
+            </ul>
+        </div>
+        <h3>
+            October 18, 2005 - Version 9.07 (Build 61.2)</h3>
+        <div class="h3content">
+            <ul>
+                <li>adds Window > Flip View menu.</li>
+                <li>adds +/- accelerators to quickly toggle between the video inputs.</li>
+            </ul>
+        </div>
+        <h3>
+            September 5, 2005 - Version 9.07 (Build 59.1)</h3>
+        <div class="h3content">
+            <ul>
+                <li>adds /capture command-line parameter.</li>
+                <li>adds save and restore feature for TV tuner input type (cable or antenna).</li>
+                <li>adds Options > Pause menu, to pause or unpause the live preview.</li>
+                <li>described supported command-line parameters.</li>
+            </ul>
+        </div>
+        <h3>
+            August 5, 2005 - Version 9.06 (Build 54.4)</h3>
+        <div class="h3content">
+            <ul>
+                <li>adds "/snap[:&lt;delay&gt;]" and "/close" parameters. /snap makes a still capture
+                    as soon as AMCap starts (if it was properly preconfigured) or after the specified
+                    delay in milliseconds. /close closes the application when the still capture is done.
+                </li>
+            </ul>
+        </div>
+        <h3>
+            June 10, 2005 - Version 9.06 (Build 52.5)</h3>
+        <div class="h3content">
+            <ul>
+                <li>fixes a memory leak.</li>
+                <li>enhanced STI to DirectShow device lookup.</li>
+            </ul>
+        </div>
+        <h3>
+            May 17, 2005 - Version 9.06 (Build 50.2)</h3>
+        <div class="h3content">
+            <ul>
+                <li>adds "Register for STI events" menu under Capture. This option enables AMCap to
+                    appear in the list of applications in the Events tab of the item properties in "Scanners
+                    and Cameras".</li>
+            </ul>
+        </div>
+        <h3>
+            May 4, 2005 - Version 9.06 (Build 49.3)</h3>
+        <div class="h3content">
+            <ul>
+                <li>changed still image filenames to unique time-based filenames to avoid overwriting.</li>
+                <li>adds a "Copy to clipboard" option in the Capture > Still menu. If checked the Snap
+                    option copy the image to the clipboard instead of to the disk.</li>
+                <li>remember and restore the selected audio input on entry and on exit.</li>
+            </ul>
+        </div>
+        <h3>
+            April 12, 2005 - Version 9.05 (Build 48.2)</h3>
+        <div class="h3content">
+            <ul>
+                <li>adds support for mouse wheel to change the TV channel.</li>
+            </ul>
+        </div>
+        <h3>
+            March 25, 2005 - Version 9.05 (Build 47.5)</h3>
+        <div class="h3content">
+            <ul>
+                <li>adds Remember > Image Controls menu to optionally save and restore Brightness, Contrast,
+                    Hue, Saturation, Gamma, Sharpness, WhiteBalance, and Gain.</li>
+                <li>the settings are now saved and loaded to/from an AMCap.ini file which must be placed
+                    in the same folder as AMCap.exe. This allows easy preconfiguration.</li>
+                <li>adds a Capture > Still > Format menu to specify the format in which still images
+                    are saved. JPEG and PNG are now supported. </li>
+            </ul>
+        </div>
+        <h3>
+            February 5, 2005 - Version 9.04 (Build 44.6)</h3>
+        <div class="h3content">
+            <ul>
+                <li>adds keyboard accelerators for device control.</li>
+            </ul>
+        </div>
+        <h3>
+            January 31, 2005 - Version 9.04 (Build 44.1)</h3>
+        <div class="h3content">
+            <ul>
+                <li>fixes a possible crash if MPEG-2 is selected but the device does not support it.</li>
+            </ul>
+        </div>
+        <h3>
+            November 4, 2004 - Version 9.04 (Build 43.4)</h3>
+        <div class="h3content">
+            <ul>
+                <li>fixes selected video input was not properly saved and restored.</li>
+            </ul>
+        </div>
+        <h3>
+            October 28, 2004 - Version 9.04 (Build 42.4)</h3>
+        <div class="h3content">
+            <ul>
+                <li>adds power management. Allows hibernation while previewing is active.</li>
+            </ul>
+        </div>
+        <h3>
+            October 18, 2004 - Version 9.04 (Build 41.1)</h3>
+        <div class="h3content">
+            <ul>
+                <li>adds Zoom options for VMR9.</li>
+            </ul>
+        </div>
+        <h3>
+            October 12, 2004 - Version 9.04 (Build 40.1)</h3>
+        <div class="h3content">
+            <ul>
+                <li>adds Deinterlacing options for VMR9.</li>
+                <li>saves/restores the MPEG-2 option.</li>
+                <li>adds <strong>/640</strong> parameter; starts application at 640*480 on first launch.</li>
+                <li>adds <strong>/nocaption</strong> parameter; starts application w/o caption and menu bar.</li>
+                <li>adds <strong>/fullscreen</strong> parameter; starts the application in fullscreen mode.</li>
+            </ul>
+        </div>
+        <h3>
+            July 23, 2004 - Version 9.03 (Build 33.5)</h3>
+        <div class="h3content">
+            <ul>
+                <li>adds delayed still capture.</li>
+            </ul>
+        </div>
+        <h3>
+            July 9, 2004 - Version 9.03 (Build 32.5)</h3>
+        <div class="h3content">
+            <ul>
+                <li>disables screensaver while in fullscreen mode.</li>
+                <li>fixes a possible crash when video capture reaches the 2GB size.</li>
+            </ul>
+        </div>
+        <h3>
+            June 17, 2004 - Version 9.03 (Build 29.4)</h3>
+        <div class="h3content">
+            <ul>
+                <li>delay loaded WMVCore.dll in case Windows Media 9 Series is not installed.</li>
+                <li>removes the "Mode" menu and replaced it with a toolbar. Only available when a DV
+                    camcorder is connected.</li>
+                <li>fixes lack of audio in preview when used with a DV camcorder and VMR9 or still capture
+                    are enabled.</li>
+                <li>fixes keyboard shortcuts not available in fullscreen mode (not VMR9). </li>
+            </ul>
+        </div>
+        <h3>
+            May 31, 2004 - Version 9.02 (Build 23.1)</h3>
+        <div class="h3content">
+            <ul>
+                <li>adds support for hardware trigger (when hi-res still capture is enabled).</li>
+                <li>saves/restores last TV channel.</li>
+                <li>adds the possibility of switching the TV channel by typing the channel on the keyboard.
+                    Always use 2 digits (e.g. channel #1 is 01) Use DEL or BACKSPACE to correct the
+                    first digit.</li>
+                <li>adds PgUp / PgDn to switch to next / previous TV channel.</li>
+            </ul>
+        </div>
+        <h3>
+            May 19, 2004 - Version 9.02 (Build 17.3)</h3>
+        <div class="h3content">
+            <ul>
+                <li>fixes a problem with the Window menu.</li>
+            </ul>
+        </div>
+        <h3>
+            May 10, 2004 - Version 9.02 (Build 17.1)</h3>
+        <div class="h3content">
+            <ul>
+                <li>fixes "Audio Format..." not visible in the Options menu.</li>
+                <li>adds the Window > Remember Position menu option.</li>
+                <li>adds a warning if the requested capture file size is too large for the file system
+                    of the partition on which it is created.</li>
+                <li>adds a "Mode" menu to control a DV camcorder. All commands may not be supported
+                    by the driver or the device.</li>
+                <li>displays full version numbers in About.</li>
+                <li>adds some links to my website in the Help menu.</li>
+                <li>shows progress while saving a WMV capture file.</li>
+                <li>displays the actual capture file size after a capture. </li>
+            </ul>
+        </div>
+        <h3>
+            April 29, 2004 - Version 9.02 (Build 14.4)</h3>
+        <div class="h3content">
+            <ul>
+                <li>adds new shortcuts (capture, save).</li>
+                <li>improves layout of controls in dialog boxes.</li>
+                <li>remembers video compression/colorspace setting and compression settings.</li>
+                <li>adds an option to create a new capture file (in Allocate File Space) to preserve
+                    the current one(s). </li>
+            </ul>
+        </div>
+        <h3>
+            April 16, 2004 - Version 9.01 (Build 12.5)</h3>
+        <div class="h3content">
+            <ul>
+                <li>adds support for full-screen mode support when VMR9 is enabled.</li>
+                <li>adds support for high-resolution still captures, only enabled if the driver implements
+                    a still pin.</li>
+            </ul>
+        </div>
+        <h3>
+            April 5, 2004 - Version 9.01 (Build 8.1)</h3>
+        <div class="h3content">
+            <ul>
+                <li>remembers video standard and video size from previous session.</li>
+                <li>adds still capture.</li>
+                <li>adds Windows Media 9 Series compression.</li>
+            </ul>
+        </div>
+        <h3>
+            January 19, 2004 - Version 9.0 (Build 6.2)</h3>
+        <div class="h3content">
+            <ul>
+                <li>adds multi-monitor support (VMR9) requires DirectX 9.0 runtimes.</li>
+                <li>remembers video input from previous session.</li>
+                <li>adds full screen mode support.</li>
+            </ul>
+        </div>
+        <h3>
+            Version 9.0 - 1st public custom version.</h3>
+        <div class="h3content">
+            <ul>
+                <li>adds "caption bar and menu on and off" and "always on top" features.</li>
+            </ul>
+        </div>
+        <h3>
+            Version 9.0</h3>
+        <div class="h3content">
+            <ul>
+                <li>initial build released by Microsoft in DirectX 9.0 SDK.</li>
+            </ul>
+        </div>
+    </div>
+    
+    <h2><a id="Download" />Latest Version</h2>
+    <div class="h2content">
+        <p>
+            The latest demo version of AMCap is always available for download from this address:</p>
+        <p class="link">
+            <a href="http://noeld.com/programs.asp?cat=video#AMCap">http://noeld.com/programs.asp?cat=video#AMCap</a></p>
+    </div>
+    
+    <h2><a id="Redistribution" />Redistribution</h2>
+    <div class="h2content">
+        Computer magazine publishers are welcome to redistribute the demo version of the application 
+        as-is on their complimentary or monthly CDs. Any other redistribution of the application
+        with commercial products is strictly forbidden without the permission of the author. 
+    </div>
+    
+    <h2><a id="Contact" />Contact Details</h2>
+    <div class="h2content">
+        <p>
+            E-mail: <a href="mailto:webmaster@noeld.com">webmaster@noeld.com</a></p>
+        <p>
+            Website: <a href="http://noeld.com">noeld.com</a></p>
+    </div>
+</body>
+
+</html>
