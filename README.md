@@ -1,2 +1,0 @@
-# hhdcommand
-hhdcommand
